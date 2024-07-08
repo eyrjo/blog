@@ -1,3 +1,13 @@
+---
+layout: post
+title: Gente que le echa mucho morro
+categories:
+  - Lisboa
+  - Transporte
+published: true
+permalink: /mucho-morro/
+date: 2013-10-28T10:00:00.000Z
+---
 El autobús no para porque va lleno y te toca esperar ¿88? minutos hasta que pasa el siguiente.
 Si pensaban que sólo cometíamos fraude los españoles (la típica picaresca), están muy equivocados. En Portugal también hay gente que le echa mucho morro. Demasiada gente. Y demasiado morro.
 

@@ -22,6 +22,7 @@ theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-archives
 
 # Theme-specific settings
 
@@ -70,4 +71,12 @@ minima:
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
-
+jekyll-archives:
+  enabled:
+  - categories
+  layout: custom-archive-layout
+  layouts:
+  category: category-archive
+    tag: tag-archive
+  permalinks:
+    category: '/category/:name/'

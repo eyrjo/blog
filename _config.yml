@@ -75,4 +75,4 @@ jekyll-archives:
   enabled: all
   layout: archive
   permalinks:
-    category: '/category/:name/'
+    category: '/categorias/:name/'

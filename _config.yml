@@ -74,9 +74,6 @@ minima:
 jekyll-archives:
   enabled:
   - categories
-  layout: custom-archive-layout
-  layouts:
-  category: category-archive
-    tag: tag-archive
+  layout: archive
   permalinks:
     category: '/category/:name/'

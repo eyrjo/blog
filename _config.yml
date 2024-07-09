@@ -72,8 +72,7 @@ minima:
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
 jekyll-archives:
-  enabled:
-  - categories
+  enabled: all
   layout: archive
   permalinks:
     category: '/category/:name/'

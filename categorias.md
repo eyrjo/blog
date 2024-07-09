@@ -1,5 +1,5 @@
 ---
 title: "Publicaciones por categoría"
 layout: archive
-permalink: /categorias/
+permalink: /categorias
 ---

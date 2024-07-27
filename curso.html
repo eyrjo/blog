@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: year-archive
 ---
 
 {% assign postsByYearMonth = site.categories.notes | group_by_exp:"post", "post.date | date: '%Y-%m'"  %}
@@ -8,8 +8,8 @@ layout: archive
 <h3>{{ yearMonth.name }}</h3>
 <ul>
     {% for post in yearMonth.items %}
-    <li class="flex space-x-6 items-baseline">
-        <span class="text-sm">{{ post.date | date: '%Y-%m-%d' }}</span>
+    <li>
+        <span>{{ post.date | date: '%d/%m/%Y' }}</span>
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
     {% endfor %}

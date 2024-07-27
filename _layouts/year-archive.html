@@ -1,0 +1,12 @@
+---
+layout: base
+---
+<h2>Archivo de entradas publicadas en {{ page.date | date: '%Y' }}</h2>
+<ul>
+    {% for post in page.posts %}
+    <li>
+        <span>{{post.date | date: '%m-%Y'}}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>

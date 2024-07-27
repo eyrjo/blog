@@ -2,3 +2,14 @@
 layout: year-archive
 ---
 
+{% for year in postsByYear %}
+<h3>{{ year.name }}</h3>
+<ul>
+    {% for post in year.items %}
+    <li class>
+        <span>{{ post.date | date: '%Y-%m-%d' }}</span>
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
+{% endfor %}

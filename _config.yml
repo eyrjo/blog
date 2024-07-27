@@ -76,3 +76,5 @@ jekyll-archives:
   layout: archive
   permalinks:
     category: '/categorias/:name/'
+
+paginate: 5

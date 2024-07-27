@@ -1,0 +1,12 @@
+---
+layout: base
+---
+<h2>Archivo de entradas con la etiqueta {{ page.type }} '{{ page.title }}'</h2>
+<ul>
+  {% for post in page.posts %}
+    <li>
+      <span class="post-date">{{ post.date | date: "%d/%m/%Y" }}</span>
+      <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>

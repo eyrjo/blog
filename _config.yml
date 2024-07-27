@@ -82,8 +82,8 @@ jekyll-archives:
     tag: tag-archive
     categories: categories-archive
   permalinks:
-    year: /:year
+    year: /curso/:year
     tag: /etiquetas/:name
-    categories: /categorias/:name
+    categories: /publicacion/:name
 
 paginate: 5

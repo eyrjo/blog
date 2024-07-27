@@ -2,11 +2,13 @@
 layout: base
 ---
 <h2>Archivo de entradas publicadas en {{ page.date | date: '%Y' }}</h2>
-<ul>
-    {% for year in years %}
-    <li>
-        <span>{{post.date | date: '%m-%Y'}}</span>
-        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
+{% for year in years %}
+  <p>{{ year.name }}</p>
+  <ul>
+    {% for post in year.items %}
+      <li>
+        <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
+      </li>
     {% endfor %}
-</ul>
+  </ul>
+{% endfor %} 

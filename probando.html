@@ -2,7 +2,7 @@
 layout: year-archive
 ---
 
-{% assign postsByYearMonth = site.categories.notes | group_by_exp:"post", "post.date | date: '%Y-%m'"  %}
+{% assign postsByYearMonth = site.categories.notes | group_by_exp:"post", "post.date | date: '%Y'"  %}
 
 {% for yearMonth in postsByYearMonth %}
 <h3>{{ yearMonth.name }}</h3>

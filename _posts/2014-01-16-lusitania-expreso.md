@@ -2,11 +2,13 @@
 layout: post
 title: Lusitania Expreso
 categories:
-  - Transportes
-  - Lisboa
+  - La Mochila de Jorge
 published: true
 permalink: /ausente/
 date: 2014-01-16T10:00:00.000Z
+tags:
+  - Transporte
+  - Lisboa
 ---
 Ya no quedan trenes como los de antes. Por lo menos en España. La ferocidad con la que España está construyendo e inaugurando líneas de alta velocidad está enterrando vivo al ferrocarril convencional. El Lusitania es uno de esos trenes en horas bajas, que luchan por sobrevivir ante la competencia de otros medios de transporte más rápidos, encargado desde 1943 de unir por ferrocarril las capitales de España y Portugal.
 

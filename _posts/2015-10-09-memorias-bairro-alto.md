@@ -2,11 +2,17 @@
 layout: post
 title: Memorias del Bairro Alto
 categories:
-  - lisboa
-  - Erasmus
+  - La Mochila de Jorge
 published: true
 permalink: /memorias-bairro-alto/
 date: 2015-10-09T10:00:00.000Z
+tags:
+  - lisboa
+  - Erasmus
+excerpt: >-
+  Al final del Elevador de Glória, al lado del Miradouro de São Pedro, en el
+  Bairro Alto de Lisboa. Era nuestro punto de encuentro, aunque seguramente ya
+  nos habríamos juntado antes para cenar.
 ---
 ## Entre las estrechas y empinadas calles pasaba la vida
 Al final del Elevador de Glória, al lado del Miradouro de São Pedro, en el Bairro Alto de Lisboa. Era nuestro punto de encuentro, aunque seguramente ya nos habríamos juntado antes para cenar. Sobre la medianoche, un poco antes, o a veces después; viernes, sábados y entre semana, si se terciaba. Allí solíamos vernos todos. Unos íbamos más que otros, pero todos pasamos alguna noche en ese mítico lugar.

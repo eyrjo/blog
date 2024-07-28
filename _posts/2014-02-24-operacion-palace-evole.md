@@ -1,10 +1,11 @@
 ---
 layout: post
 title: «Operación Palace» de Jordi Évole
-categories: Televisión
+categories: La Mochila de Jorge
 published: true
 permalink: /operacion-palace-evole/
 date: 2014-02-24T10:00:00.000Z
+tags: Televisión
 ---
 Todo el mundo conoce a Jordi Évole como “El Follonero”. Y suele hacer honor a su nombre. En los últimos años, su programa Salvados no hace más que desvelar a una audiencia cada vez mayor algunos de los temas más espinosos de la actualidad nacional. Se ha atrevido con la educación, el terrorismo, la independencia catalana… Incluso revelaciones de su programa han conseguido la reapertura de casos judiciales como el accidente del metro de Valencia en 2006. Siempre ha armado “follón”, nunca ha dejado indiferente a nadie.
 

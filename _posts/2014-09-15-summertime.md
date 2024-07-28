@@ -1,10 +1,21 @@
 ---
 layout: post
 title: Summertime
-categories: cosas
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /summertime/
 date: 2014-09-15T10:00:00.000Z
+tags:
+  - Cosas
+excerpt: >-
+  De repente volvía a ser Verano. Si es que en algún momento lo dejó de ser, por
+  mucho que la lluvia no dejara de parar y las nubes no dejaran ver el sol. De
+  repente volvía a casa, pensando si los últimos diez meses habían sido un sueño
+  o una realidad. Cada día me daba cuenta un poco más de que iba a ser imposible
+  olvidarte, si cada vez que veía la previsión del tiempo te veía a ti. Siendo
+  sinceros, después de vivirte durante casi un año, era imposible pensar que no
+  iba a pasar.
 ---
 ![](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhy14Tpw-_h5YxI5uoDhlGXob4o-Fp-FOR7I16flttacGiSTNqxC3-gEe84AJR0JsGu64t3afUZpZyIrGxMj3MH5sEGjHBueCw6hjjRyKtkew3Ee2TS5GbiTUhoKWF6w8dRnIbAT_Bm-NIh/s1600/IMG_20110824_194247.jpg)
 
@@ -18,4 +29,4 @@ Siempre cuesta arrancar (como que otros años he arrancado en octubre), pero est
 
 --
 
-Como habréis notado, las cosas han cambiado un poco por aquí. Por motivos que no vienen al caso, me he tenido que mudar de palomar y he perdido en el camino cuatro de los cinco años de este blog. Es lo que tiene que te echen de los sitios. Así que, entre que compongo otra vez mi vida pasada, y ya de paso la futura, iré escribiendo aquí. La dirección del blog es la misma, aunque es posible que haya algunos problemas que solucionaré los próximos días. 
+Como habréis notado, las cosas han cambiado un poco por aquí. Por motivos que no vienen al caso, me he tenido que mudar de palomar y he perdido en el camino cuatro de los cinco años de este blog. Es lo que tiene que te echen de los sitios. Así que, entre que compongo otra vez mi vida pasada, y ya de paso la futura, iré escribiendo aquí. La dirección del blog es la misma, aunque es posible que haya algunos problemas que solucionaré los próximos días.

@@ -87,4 +87,4 @@ jekyll-archives:
     categories: /publicacion/:name
 
 paginate: 5
-paginate_path: "/pagina/page:num/"
+paginate_path: "/pagina/:num/"

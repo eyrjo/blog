@@ -14,11 +14,11 @@ title: Probando
         <ul>
           {% for post in year.items %}
           <li>
-            <code class='published-on'>{{ post.date | date: "%d %b" }}</code>
+            <span class='published-on'>{{ post.date | date: "%d/%m" }}</span>
             <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
 
             {% for category in post.categories %}
-              <a href="/categories/{{ category }}/" class='category'> {{ category }} </a>
+              <code></code><a href="/categories/{{ category }}/" class='category'> {{ category }} </a></code>
             {% endfor %}
           </li>
           {% endfor %}

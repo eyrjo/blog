@@ -18,7 +18,9 @@ title: Probando
             <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
 
             {% for category in post.categories %}
-              <code></code><a href="/categories/{{ category }}/" class='category'> {{ category }} </a></code>
+              <code>
+                <a href="/categories/{{ category }}/" class='category'> {{ category }} </a>
+              </code>
             {% endfor %}
           </li>
           {% endfor %}

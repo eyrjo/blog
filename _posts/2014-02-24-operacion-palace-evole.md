@@ -1,7 +1,8 @@
 ---
 layout: post
 title: «Operación Palace» de Jordi Évole
-categories: La Mochila de Jorge
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /operacion-palace-evole/
 date: 2014-02-24T10:00:00.000Z

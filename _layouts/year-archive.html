@@ -1,8 +1,29 @@
 ---
 layout: base
 ---
-<h2>Archivo de entradas publicadas en {{ page.date | date: '%Y' }}</h2>
+<div class='posts'>
+  <div class='post-listing'>
+    {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
 
- <div class="post-content">
-    {{ content }}
+    {% for year in years %}
+      <div class="year">
+        <h3>{{ year.name }}</h3>
+
+        <ul>
+          {% for post in year.items %}
+          <li>
+            <span class='published-on'>{{ post.date | date: "%d/%m" }}</span> » 
+            <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
+
+            {% for category in post.categories %}
+              <code>
+                <a href="/categorias/#{{ category }}/" class='category'> {{ category }} </a>
+              </code>
+            {% endfor %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
   </div>
+</div>

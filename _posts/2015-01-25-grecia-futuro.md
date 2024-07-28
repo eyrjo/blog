@@ -1,11 +1,12 @@
 ---
+tags: Crisis
+Categories: 'La Mochila de Jorge'
 layout: post
 title: '«No creo que cambie nada»: Grecia y su futuro'
-No creo que cambie nada": Grecia y su futuro"
-categories: crisis
 published: true
 permalink: /grecia-futuro/
 date: 2015-01-25T10:00:00.000Z
+excerpt: Las elecciones en Grecia nunca habían tenido tanta repercusión mediática. Hasta hace unos años sólo merecían un breve espacio en los informativos de radio y televisión, y quizá un par de columnas en la prensa. Ahora, Grecia se ha convertido en la protagonista de un partido que interesa a toda Europa, porque sus consecuencias pueden marcar un antes y un después en la política y la economía del viejo continente. Es evidente que algo importante está en juego, cuando vemos a políticos europeos intentando influir de una forma tan clara en la opinión ciudadana de un país miembro, con vagas promesas y, sobre todo, mediante amenazas de perderlo todo.
 ---
 ## Las elecciones en Grecia nunca habían tenido tanta repercusión mediática.
 Hasta hace unos años sólo merecían un breve espacio en los informativos de radio y televisión, y quizá un par de columnas en la prensa. Ahora, Grecia se ha convertido en la protagonista de un partido que interesa a toda Europa, porque sus consecuencias pueden marcar un antes y un después en la política y la economía del viejo continente. Es evidente que algo importante está en juego, cuando vemos a políticos europeos intentando influir de una forma tan clara en la opinión ciudadana de un país miembro, con vagas promesas y, sobre todo, mediante amenazas de perderlo todo.

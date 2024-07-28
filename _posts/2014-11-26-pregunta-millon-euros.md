@@ -36,3 +36,4 @@ Supongo que a fin de cuentas, el periodista al que debería aspirar a ser es alg
 Quizá de corresponsal de algún medio, haciendo guías de viaje, trabajando en cooperación internacional, en alguna cosa relacionada con la Unión Europea, o incluso la ONU, hasta como editor periodístico o literario… pero son todo ideas. Me gustan todas y no me gusta ninguna; no tengo nada claro, no es “quiero estar ahí”. Son todas respuestas correctas y no hay una, a priori, errónea. ¿Elijo una al azar y me quedo con ella pase lo que pase? Ya dentro de diez años cambio otra vez, total, si no queda nada.
 
 Se admiten comentarios motivadores, ideas innovadoras y críticas constructivas, a ver si consigo aclararme la cabeza.
+

@@ -1,10 +1,20 @@
 ---
 layout: post
 title: Un mundo sin periodistas
-categories: periodismo
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /mundo-sin-periodistas/
 date: 2015-01-15T10:00:00.000Z
+tags:
+  - Periodismo
+excerpt: >-
+  Hoy os propongo hacer un ejercicio de imaginación. Pensad que os despertáis
+  una mañana cualquiera. Tras apagar el despertador y pasar por el baño, coges
+  tu teléfono móvil. Obvias los 250 mensajes nuevos que tienes en Whatsapp y
+  abres tu red social favorita, pero resulta estar vacía. Todavía adormecido,
+  intentas meterte en la página web de algún diario o en algún blog con
+  información y tampoco puedes; muestran un extraño mensaje de error.
 ---
 ## Hoy os propongo hacer un ejercicio de imaginación.
 Pensad que os despertáis una mañana cualquiera. Tras apagar el despertador y pasar por el baño, coges tu teléfono móvil. Obvias los 250 mensajes nuevos que tienes en Whatsapp y abres tu red social favorita, pero resulta estar vacía. Todavía adormecido, intentas meterte en la página web de algún diario o en algún blog con información y tampoco puedes; muestran un extraño mensaje de error. 
@@ -28,4 +38,4 @@ Por todo ello hay miles de periodistas que trabajan todos los días repartidos p
 
 Desgraciadamente, esto no lo comprende todo el mundo: dos individuos han cometido sacrilegio en tierra sagrada de los Derechos. Creo que el peor castigo para ellos no sería pudrirse en la cárcel, no. Lo más horrendo que podrían hacerles sería privarles del derecho a poder informarse y, sobre todo, del derecho a poder expresarse abiertamente a través de medios de difusión pública o privada. A fin de cuentas, es lo que ellos querían hacer a través del miedo. Afortunadamente, nosotros no somos tan bárbaros.
 
-El miedo es un arma muy poderosa. Pero el periodismo lo es más. 
+El miedo es un arma muy poderosa. Pero el periodismo lo es más.

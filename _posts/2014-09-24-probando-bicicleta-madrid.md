@@ -2,11 +2,19 @@
 layout: post
 title: Probando la bicicleta de Madrid
 categories:
-  - Transporte
-  - Madrid
+  - La Mochila de Jorge
 published: true
 permalink: /probando-bicicleta-madrid/
 date: 2014-09-24T10:00:00.000Z
+tags:
+  - Transporte
+  - Madrid
+excerpt: >-
+  ¡Por fin "tengo" una bicicleta en casa! Tras años esperando la implantación de
+  un sistema público de alquiler de bicicletas en Madrid, en junio de 2014
+  entraba en funcionamiento BiciMad, el sistema público de alquiler de
+  bicicletas de Madrid. Lo pongo entrecomillado porque sé que no es mía; bueno,
+  en cierto modo, sí lo es.
 ---
 ## Por fin "tengo" una bicicleta en casa
 
@@ -30,4 +38,4 @@ El otro día discutía la necesidad del uso del casco por ciudad, y después de 
 
 Sobre el sistema de alquiler de BiciMad, creo que aún hay que pulirlo un poco. La conservación de la las bicicletas y las bases de alquiler no es la mejor, y el motor eléctrico a veces más problemas que ayudas al ciclista. La velocidad máxima está entre 18km/h y 24km/h, dependiendo de las bicicletas que elijas en la base, siendo mucho mejores estas últimas. El precio por uso es algo elevado, pero aún así más competitivo que el de el resto de transportes públicos de Madrid. Pero tiene una gran desventaja: su radio de acción, puesto que la mayoría de bases sólo se encuentran en el primer cinturón (salvo el barrio de Salamanca, Retiro, Moncloa y una pequeña zona al sur de Atocha), dejando fuera a mucha población del centro de la ciudad. Si bien es cierto que se va a ampliar, no se están dando la prisa necesaria al éxito que está teniendo BiciMad entre los madrileños.
 
-Personalmente, me está encantando la experiencia y la usaría mucho más si llegara a más barrios. Pedalear es una forma de olvidarse del mundo y cambiar un poco el humor. También de hacer algo de deporte, si te atreves a desconectar el motor eléctrico. Además, con el sol que suele hacer en el Madrid invernal, seguro que es más fácil usarla que otras ciudades europeas con peor tiempo y más ciclistas urbanos. Mi intención es seguir moviéndome por Madrid, siempre que pueda, en bici; ya os contaré más adelante cómo me va. 
+Personalmente, me está encantando la experiencia y la usaría mucho más si llegara a más barrios. Pedalear es una forma de olvidarse del mundo y cambiar un poco el humor. También de hacer algo de deporte, si te atreves a desconectar el motor eléctrico. Además, con el sol que suele hacer en el Madrid invernal, seguro que es más fácil usarla que otras ciudades europeas con peor tiempo y más ciclistas urbanos. Mi intención es seguir moviéndome por Madrid, siempre que pueda, en bici; ya os contaré más adelante cómo me va.

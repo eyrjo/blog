@@ -1,11 +1,19 @@
 ---
 layout: post
 title: La pregunta del millon de Euros
-categories: cosas
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /pregunta-millon-euros/
 date: 2014-11-26T10:00:00.000Z
 youtubeId: gpN3ChOq_gg
+tags:
+  - Cosas
+excerpt: >-
+  ¿Dónde te ves dentro de (inserte número aquí) años? Esa pregunta. Raro es no
+  hacérsela cada cierto tiempo a lo largo de la vida. O no, eso lo dejo al
+  criterio de cada uno. Pero la verdad es que no hay nada que pueda hacer para
+  evadirla y dejarla sin respuesta, aunque no es una cosa que debería hacer.
 ---
 {% include youtubePlayer.html id=page.youtubeId %}
 

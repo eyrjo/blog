@@ -1,3 +1,22 @@
+---
+layout: post
+tags:
+  - Portugal
+  - Arcos de Valdevez
+categories:
+  - La Mochila de Jorge
+published: true
+permalink: /arcos-valdevez-portugal/
+date: 2015-10-16T10:00:00.000Z
+excerpt: >-
+  Donde se hizo Portugal (“onde Portugal se fez”) fue en Arcos de Valdevez. Ahí
+  es donde vivo yo ahora, una vez que he vuelto a este lado de la frontera. Se
+  hace difícil imaginar que, en el lugar en el que hoy hay una alameda, con
+  cafeterías, aparcamientos y equipamientos deportivos, hace casi 900 años
+  tuviera lugar un enfrentamiento que determinaría los destinos futuros (y sus
+  fronteras) de los territorios de la Península Ibérica.
+title: 'Arcos de Valdevez: donde se hizo Portugal'
+---
 ## Donde se hizo Portugal (“onde Portugal se fez”) fue en Arcos de Valdevez.
 Ahí es donde vivo yo ahora, una vez que he vuelto a este lado de la frontera. Se hace difícil imaginar que, en el lugar en el que hoy hay una alameda, con cafeterías, aparcamientos y equipamientos deportivos, hace casi 900 años tuviera lugar un enfrentamiento que determinaría los destinos futuros (y sus fronteras) de los territorios de la Península Ibérica.
 

@@ -7,7 +7,7 @@ published: true
 permalink: /memorias-bairro-alto/
 date: 2015-10-09T10:00:00.000Z
 tags:
-  - lisboa
+  - Lisboa
   - Erasmus
 excerpt: >-
   Al final del Elevador de Glória, al lado del Miradouro de São Pedro, en el

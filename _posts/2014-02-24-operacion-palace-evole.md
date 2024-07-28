@@ -1,6 +1,6 @@
 ---
 layout: post
-title: _Operación Palace_ de Jordi Évole
+title: «Operación Palace» de Jordi Évole
 categories: Televisión
 published: true
 permalink: /operacion-palace-evole/

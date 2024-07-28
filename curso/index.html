@@ -2,7 +2,7 @@
 layout: page
 ---
 
-{% assign postsByYearMonth = site.categories.notes | group_by_exp:"post", "post.date | date: '%Y-%m'"  %}
+{% assign postsByYearMonth = site.post | group_by_exp:"post", "post.date | date: '%Y-%m'"  %}
 
 {% for yearMonth in postsByYearMonth %}
 <h3>{{ yearMonth.name }}</h3>

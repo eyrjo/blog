@@ -2,11 +2,13 @@
 layout: post
 title: Unidos en la diversidad gastronómica
 categories:
+  - La Mochila de Jorge
+published: true
+permalink: /unidos-diversidad-gastronomica/
+date: 2014-05-14T10:00:00.000Z
+tags:
   - Erasmus
   - Europa
-published: true
-permalink: /unidos-diversidad-gastronómica/
-date: 2014-05-14T10:00:00.000Z
 ---
 Una de las experiencias que más estoy disfrutando de mi Erasmus es la gastronómica. Pero no de la comida portuguesa, aunque también. De vez en cuando, amigos de varios países nos juntamos para cenar. Esas reuniones, donde también aprovechamos para beber un poco de vinho verde, hablar y pasarlo bien, me han dejado catar algunos platos tradicionales de la cocina alemana, polaca, italiana, griega… Y ellos han podido probar la comida española. Sin tener que viajar a esos países.
 

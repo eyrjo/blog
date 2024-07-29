@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Mil setecientos dos euros"
-categories: crisis
+title: Mil setecientos dos euros
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /mil-setecientos-dos-euros/
 date: 2012-09-18T10:00:00.000Z
+tags:
+  - Crisis
 ---
 Creo que a la Universidad debe y tiene que ir toda aquella persona que quiera (más allá de que España sea el país con más universitarios de Europa; eso es otro tema).
   

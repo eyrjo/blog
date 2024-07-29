@@ -14,12 +14,12 @@ layout: base
           <li>
             <span class='published-on'>{{ post.date | date: "%d/%m" }}</span> » 
             <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
-          </li>
-          <li>
+          <span>
             {% for tag in post.tags %}
               <code>
                 <a href="/etiquetas#{{ tag }}/" class='tags'>#{{ tag }}</a>
               </code>
+          </span>
             {% endfor %}
           </li>
           {% endfor %}

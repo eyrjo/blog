@@ -23,9 +23,9 @@ layout: base
             <span class="p-author h-card" itemprop="name">{{ author }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
         {% endfor %}
-      {%- endif -%}</p>
-         {% if page.tags.size > 0 %}<span class="post-tags"> Etiquetas: {% for tag in page.tags %}<a href="{{ site.baseurl }}/etiquetas#{{ tag | cgi_escape }}" rel="tag">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
-    
+      {%- endif -%}
+        • {% if page.tags.size > 0 %}<span class="post-meta"> Etiquetas: {% for tag in page.tags %}<a href="{{ site.baseurl }}/etiquetas#{{ tag | cgi_escape }}" rel="tag">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
+    </p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

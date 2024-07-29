@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Todavía no he visto un avión de Ryanair vacío"
-categories: transporte
+title: Todavía no he visto un avión de Ryanair vacío
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /Ryanair-vacio/
 date: 2011-11-09T10:00:00.000Z
+tags:
+  - Transporte
 ---
 
 Todavía no he visto un avión de Ryanair vacío. Siempre van llenos. Da igual donde vayas. Da igual que el aeropuerto esté a más de 50 kilómetros de la ciudad que le da nombre y tengas que coger un tren o un autobús que seguramente te vaya a costar más que el billete de avión. Dan igual los problemas que puedas tener con la tarjeta de embarque y con el equipaje a la hora de entrar al avión. Dan igual estén constantemente vendiendo sus productos. Dan igual sus “supuestos” vuelos cortos de combustible. Ryanair triunfa.

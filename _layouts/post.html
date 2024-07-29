@@ -25,10 +25,10 @@ layout: base
         {% endfor %}
       {%- endif -%}</p>
           <p class="post-meta">
-        {% if post.tags.size > 0 %}
-        Etiqueta{% if post.tags.size > 1 %}s{% endif %}:
+        {% if page.tags.size > 0 %}
+        Etiqueta{% if page.tags.size > 1 %}s{% endif %}:
         {{ page.tags | sort | split: ", " }}
-            {% for tag in post.Tags %}
+            {% for tag in page.Tags %}
            <a href="/etiquetas#{{ tag }}">#{{ tag }}</a>
             {% endfor %}
         {% endif %}

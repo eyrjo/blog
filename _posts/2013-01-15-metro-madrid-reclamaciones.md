@@ -7,7 +7,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /metro-madrid-reclamaciones/
-date: {}
+date: 2013-01-15T00:00:00.000Z
 excerpt: >-
   Muchos me preguntáis cómo hago para tener un pelo tan brillante y sedoso. Me
   gustaría decíroslo, pero he jurado contar nada; ese secreto se lo llevará a la

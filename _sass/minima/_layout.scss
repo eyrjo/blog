@@ -246,6 +246,7 @@
   @include relative-font-size(2.625);
   letter-spacing: -1px;
   line-height: 1.15;
+  font-weight: 700;
 
   @media screen and (min-width: $on-large) {
     @include relative-font-size(2.625);
@@ -259,6 +260,7 @@
 
   h2 {
     @include relative-font-size(1.75);
+    font-weight: 700;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(2);
@@ -267,6 +269,7 @@
 
   h3 {
     @include relative-font-size(1.375);
+    font-weight: 700;
 
     @media screen and (min-width: $on-large) {
       @include relative-font-size(1.625);
@@ -323,7 +326,7 @@
 
       &.pager-edge {
         color: $border-color-01;
-        border: 1px dashed;
+        border: 0px dashed;
       }
     }
   }

@@ -2,11 +2,13 @@
 layout: post
 title: Ando de lado a lado
 categories:
-  - Erasmus
-  - Lisboa
+  - La Mochila de Jorge
 published: true
 permalink: /ando-lado-lado/
 date: 2013-09-16T10:00:00.000Z
+tags:
+  - Erasmus
+  - Lisboa
 ---
 {% include youtubePlayer.html id="wNHyJp9d_vE" %}
 

@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "Me voy de Erasmus"
-categories: erasmus
+title: Me voy de Erasmus
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /me-voy-de-erasmus/
 date: 2013-08-21T10:00:00.000Z
+tags:
+  - Erasmus
 ---
 
 La cuenta atrás ha empezado. Estoy al borde de un abismo y me quiero tirar. Voy a empezar una de las experiencias que más me van a marcar en mi vida. Me voy de Erasmus.

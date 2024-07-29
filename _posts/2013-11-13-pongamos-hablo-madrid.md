@@ -2,12 +2,17 @@
 layout: post
 title: Pongamos que hablo de Madrid
 categories:
-  - Crisis
-  - Madrid
+  - La Mochila de Jorge
 published: true
 permalink: /pongamos-hablo-madrid/
 date: 2013-11-13T10:00:00.000Z
+tags:
+  - Crisis
+  - Madrid
 ---
+{% include youtubePlayer.html id=page.youtubeId %}
+
+
 > _Esta canción es una historia de amor y de odio a una ciudad invivible, pero insustituible._ 
 > \- Joaquín Sabina
 
@@ -28,5 +33,3 @@ Así que salgamos, hagamos la ciudad nuestra, no de los que nos gobiernan. Llene
 No hacen falta unos juegos olímpicos ni mucho dinero, para transformar la ciudad. Lisboa, atacada por la crisis, ha sabido poner en valor todos sus puntos fuertes, siendo reconocida por las grandes publicaciones de viajes como uno de los principales destinos a visitar en 2013. ¿Cómo? Quizá porque ha dado el poder de las plazas a grupos de ciudadanos, que se organizan para realizar eventos de todo tipo a un coste casi mínimo. No os imagináis la cantidad de cosas que se pueden hacer aquí con poco dinero, al contrario que en Madrid. Quizá porque hay más vida en el espacio público, algo que casi está condenado a la extinción en la capital de España.
 
 “Pongamos que hablo de Madrid” fue versionada en el año 2000 por el grupo Porretas, que cambió ligeramente la letra. Al final de la canción, ya no pedían como Sabina que le “llevaran al Sur donde nací”. Lo cambiaron por: “aquí he vivido, aquí quiero quedarme”. Madrid había cambiado lo suficiente como para permanecer en ella para siempre.
-
-

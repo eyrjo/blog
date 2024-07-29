@@ -2,13 +2,15 @@
 layout: post
 title: Claveles de Abril
 categories:
-  - Portugal
-  - Lisboa
-  - Erasmus
+  - La Mochila de Jorge
 published: true
 permalink: /claveles-abril/
 date: 2014-04-25T10:00:00.000Z
 youtubeId: pRIOq-sbyPM?
+tags:
+  - Portugal
+  - Lisboa
+  - Erasmus
 ---
 Durante estos días, Lisboa se está engalanando para recordar el cuarenta aniversario de la Revolución de los Claveles (aquí, Revolução dos Cravos), el golpe militar que puso fin al Estado Novo de Antonio Salazar, tras más de 45 años de dictadura, y a las guerras coloniales en África. El 25 de abril es celebrado cada año como el Día de la Libertad, rememorando una revuelta sin apenas derramamiento de sangre en la que los fusiles de las tropas no disparaban balas, si no que sus cañones estaban coronados por claveles (de ahí el nombre).
 

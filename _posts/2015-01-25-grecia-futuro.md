@@ -1,7 +1,8 @@
 ---
 tags:
   - Crisis
-Categories: 'La Mochila de Jorge'
+categories:
+- La Mochila de Jorge
 layout: post
 title: '«No creo que cambie nada»: Grecia y su futuro'
 published: true

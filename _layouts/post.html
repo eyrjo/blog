@@ -26,8 +26,11 @@ layout: base
       {%- endif -%}</p>
        <p class="post-meta">
         {% if page.tags.size > 0 %}
-        Tag{% if page.tags.size > 1 %}s{% endif %}:
-        {{ page.tags | sort | join: ", " }}
+        Etiqueta{% if page.tags.size > 1 %}s{% endif %}:
+        {{ page.tags | sort | join: ", " }}  
+         {% for tag in sortedTags %}
+        <a href="/etiquetas#{{ tag | cgi_escape }}"> #{{ tag }}</a>{% unless forloop.last %} 
+         {% endunless %}
         {% endif %}
     </p>
   </header>

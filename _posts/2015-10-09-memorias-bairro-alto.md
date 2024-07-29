@@ -9,6 +9,7 @@ date: 2015-10-09T10:00:00.000Z
 tags:
   - Lisboa
   - Erasmus
+  - Portugal
 excerpt: >-
   Al final del Elevador de Glória, al lado del Miradouro de São Pedro, en el
   Bairro Alto de Lisboa. Era nuestro punto de encuentro, aunque seguramente ya

@@ -7,14 +7,14 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /metro-madrid-reclamaciones/
-date: 2013-01-15T10:00:00.000Z
+date: {}
 excerpt: >-
   Muchos me preguntáis cómo hago para tener un pelo tan brillante y sedoso. Me
   gustaría decíroslo, pero he jurado contar nada; ese secreto se lo llevará a la
   tumba mi estilista. Lo que sí puedo contar es qué estoy haciendo otra vez en
   Portugal, país al que he vuelto recientemente, como supongo muchos habréis
   adivinado, si no leído, por mis últimas entradas en el blog.
-title: Cómo regresé al otro lado de la frontera
+title: Metro de Madrid y las reclamaciones
 youtubeID: bQvJMviWSTs
 ---
 ## Antes de Navidad presenté una hoja de reclamaciones contra una empresa que nunca pensé que lo haría: Metro de Madrid.

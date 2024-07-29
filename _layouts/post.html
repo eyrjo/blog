@@ -27,7 +27,7 @@ layout: base
           <p class="post-meta">
         {% if page.tags.size > 0 %}
         Etiqueta{% if page.tags.size > 1 %}s{% endif %}:
-        {{ page.tags | sort | split: ", " }}
+        {{ page.tags | sort | join: ", " }}
             {% for tag in page.Tags %}
            <a href="/etiquetas#{{ tag }}">#{{ tag }}</a>
             {% endfor %}

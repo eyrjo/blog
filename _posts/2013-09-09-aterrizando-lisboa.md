@@ -1,12 +1,14 @@
 ---
 layout: post
-title: "Aterrizando en Lisboa"
+title: Aterrizando en Lisboa
 categories:
-- "erasmus"
-- "lisboa"
+  - La Mochila de Jorge
 published: true
 permalink: /aterrizando-lisboa/
 date: 2013-09-09T10:00:00.000Z
+tags:
+  - Erasmus
+  - Lisboa
 ---
 ¡Cómo pasa el tiempo! Lisboa parecía tan lejana cuando empecé el verano. Y ahora ya llevo una semana aquí. No ha podido ser un aterrizaje más suave. Quizá sea culpa de la (poca) distancia con mi casa y que es un país relativamente parecido a España. Al fin y al cabo, somos hijos de una misma madre. La forma de vida es similar, aunque se nota que viven más cara a Europa. Para muestra, los horarios: los locales del Bairro Alto cierran a las 3 de la madrugada los fines de semana.
   

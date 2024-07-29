@@ -14,11 +14,9 @@ excerpt: >-
   tumba mi estilista. Lo que sí puedo contar es qué estoy haciendo otra vez en
   Portugal, país al que he vuelto recientemente, como supongo muchos habréis
   adivinado, si no leído, por mis últimas entradas en el blog.
-title: Cómo regresé al otro lado de la frontera
+title: 'Magusto: celebrando la castaña'
 youtubeID: bQvJMviWSTs
 ---
-{% include youtubePlayer.html id=page.youtubeId %}
-
 ## ¿Qué se te viene a la cabeza cuando piensas en el Otoño?
 Posiblemente lo asocies con el frío, el cambio de hora y el cambio de armarios, las hojas en el suelo, la lluvia, un buen plato de lentejas y... ¡las castañas! Este aperitivo tan típico de esta época del año, que apetece tanto como el chocolate caliente cuando las temperaturas empiezan a bajar, tiene dedicada una tradición a ambos lados de la frontera hispano-lusa (y parte del extranjero): el Magusto o Magosto.
 
@@ -30,6 +28,8 @@ El Magusto se realizaba (y se realiza ahora) coincidiendo con la recogida de la 
 De hecho, se cree que el nombre de Magusto proviene de dos vocablos latinos: 'magnus ustus' o gran fuego y 'magum ustum' o fuego mágico. Así, la fiesta se realiza en torno a una hoguera que caliente los corazones, en cuyas brasas se asan las castañas y algo de carne o embutido, todo ello regado con un buen vino nuevo y con jeropiga, una especie de licor. 
 
 Como en otras celebraciones donde el fuego también está muy presente, como puede ser la noche de San Juan, es costumbre saltar la hoguera para tener buena suerte, y también tiznarse la cara con la ceniza. Además, también se baila, se cuentan historias y se canta, como podéis ver en este pequeño vídeo, donde una banda visita una de las barracas del Magusto de Arcos de Valdevez. (Siento la calidad del vídeo; estoy abierto a donaciones de teléfonos móviles con cámaras decentes.)
+
+{% include youtubePlayer.html id=page.youtubeId %}
 
 ### Me centraré en la parte portuguesa de la tradición
 Aunque las formas varían en cada pueblo, la celebración del Magusto está estrechamente relacionada con otros dos acontecimientos. Por un lado, la tradición celta del 'Samhain' o el final del verano, que a su vez dio lugar a la fiesta de Halloween (la original, no la de ahora), y ésta a su vez a la festividad cristiana de Todos los Santos. Por eso en muchos lugares el Magusto está solapado con esta fecha, teniendo lugar el primero y el segundo día de noviembre. Curiosamente, es típico que los niños vayan pidiendo castañas y duces por las casas para celebrar una merienda todos juntos. 

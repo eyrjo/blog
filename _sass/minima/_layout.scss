@@ -211,7 +211,6 @@
 
 .post-list-heading {
   @include relative-font-size(1.75);
-  font-weight: 700;
 }
 
 .post-list {
@@ -231,6 +230,7 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  font-weight: 700;
 }
 
 

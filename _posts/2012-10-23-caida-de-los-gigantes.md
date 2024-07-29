@@ -1,10 +1,13 @@
 ---
 layout: post
-title: "La caída de los gigantes"
-categories: deportes, ciclismo
+title: La caída de los gigantes
+categories:
+  - La Mochila de Jorge
 published: true
 permalink: /caida-de-los-gigantes/
 date: 2012-10-23T10:00:00.000Z
+tags:
+  - Ciclismo
 ---
 
 El Tour de Francia es uno de los protagonistas indiscutibles de las tardes veraniegas de mi infancia. Mi bicicleta esperaba fuera, pero mi abuela no nos dejaba salir a la calle porque hacía calor. Así que el Tour era la única salida. En la tele aparecían unos bestias, que subían aparentemente sin esfuerzo pendientes imposibles. Eran los tiempos del pirata Marco Pantani, de Jan Ullrich, y por supuesto, de Lance Armstrong.

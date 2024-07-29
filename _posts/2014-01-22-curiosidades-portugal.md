@@ -2,11 +2,13 @@
 layout: post
 title: Siete curiosidades sobre Portugal
 categories:
-  - Erasmus
-  - Portugal
+  - La Mochila de Jorge
 published: true
 permalink: /curiosidades-portugal/
 date: 2014-01-22T10:00:00.000Z
+tags:
+  - Erasmus
+  - Portugal
 ---
 Portugal es quizá un país muy pequeño en territorio, pero muy grande en Historia. Aquí van algunas curiosidades sobre el país vecino:
 

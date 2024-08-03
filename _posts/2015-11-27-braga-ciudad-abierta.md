@@ -8,7 +8,13 @@ categories:
 published: true
 permalink: /braga-ciudad-abierta/
 title: 'Braga, la ciudad abierta'
-date: 2015-11-27
+date: 2015-11-27T00:00:00.000Z
+excerpt: >-
+  Llegar a Braga es encontrar una ciudad con los brazos extendidos, esperándote.
+  La ciudad hace gala de su símbolo, una puerta abierta, y hace que te sientas
+  cómodo. Merece la pena dejarse caer un día y recorrer sus calle llenas de
+  juventud e historia. Porque si hay algo que define Braga son esas dos últimas
+  palabras, que son parte de la manera de ser de sus habitantes.
 ---
 ## Llegar a Braga es encontrar una ciudad con los brazos extendidos, esperándote
 La ciudad hace gala de su símbolo, una puerta abierta, y hace que te sientas cómodo. Merece la pena dejarse caer un día y recorrer sus calle llenas de juventud e historia. Porque si hay algo que define Braga son esas dos últimas palabras, que son parte de la manera de ser de sus habitantes. 
@@ -38,4 +44,4 @@ Precisamente al final de esta calle está la razón del sobrenombre que he utili
 ### Ese espíritu de apertura aún permanece en Braga
 Igual ya no se dejan abiertas las casas para que entren los vecinos, como parece que se hacía antes. Pero sigue habiendo ganas de unir la tradición con la modernidad, lo antiguo con lo transgresor, las viejas reglas con las ideas revolucionarias. La intención es romper con el pasado y darlo todo al futuro, pero al mismo tiempo lucir, más o menos orgullosos, la historia de toda una vida. Lo mejor es que todo parece encajar; todos conviven en armonía más o menos estable. 
 
-Por eso, cuando alguien se deja la puerta abierta en Portugal, se le pregunta si es de Braga. Y por eso se conoce a Braga como la Ciudad Abierta. 
+Por eso, cuando alguien se deja la puerta abierta en Portugal, se le pregunta si es de Braga. Y por eso se conoce a Braga como la Ciudad Abierta.

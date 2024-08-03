@@ -7,8 +7,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /braga-ciudad-abierta/
-excerpt: Braga puede parecer pequeño, y lo es. Pero no tiene nada de capital de provincias: es la tercera ciudad más grande de Portugal, con más de 180.000 habitantes censados, y cerca de 800.000 en su área metropolitana. Y de ellos, un 35% tiene menos de 25 años. La juventud está presente en todas partes. Tanto es así que Braga ha sido nombrada ciudad más joven de Europa y además, fue Capital Europea de la Juventud para el año 2012. 
-title: Braga, la ciudad abierta
+title: 'Braga, la ciudad abierta'
 date: 2015-11-27
 ---
 ## Llegar a Braga es encontrar una ciudad con los brazos extendidos, esperándote

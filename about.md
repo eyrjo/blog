@@ -4,7 +4,7 @@ title: Acerca de
 permalink: /info/
 ---
 ## ¿Qué es Memorias Airadas?
-"Memorias Airadas" es el archivo de la mayoría de artículos escritos por [Jorge Serrano](https:// yrjo.eu) en sus diferentes blogs personales hasta el año 2024
+"Memorias Airadas" es el archivo de la mayoría de artículos escritos por [Jorge Serrano](https:// yrjo.eu) en sus diferentes blogs personales hasta el año 2024.
 
 ### ¿Por qué archivar esos artículos?
 El tiempo pasa y todo cambia. Los sitios y dominios que alojaban esos artículos se sentían antiguos; no tenían actividad desde hace años. Siento que ha llegado el momento de cerrar esos blogs, pero no quiero que su contenido desaparezca. Además, gracias al formato Markdown, puedo conservar una copia local de los archivos con facilidad.

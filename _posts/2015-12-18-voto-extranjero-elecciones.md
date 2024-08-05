@@ -6,7 +6,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /voto-extranjero-elecciones/
-date: 2015-12-18T10:00:00.000Z
+date: 2015-12-18T00:00:00.000Z
 excerpt: >-
   Como ya sabéis, estoy viviendo fuera de España durante este curso. No me
   perdería votar por nada, y mucho menos en esta ocasión que esta todo tan
@@ -14,7 +14,7 @@ excerpt: >-
 title: Vivo en el extranjero y he podido votar
 ---
 ## Ésta es la historia de lo que he tenido que hacer para poder votar
-Como ya sabéis, estoy viviendo fuera de España durante este curso. No me perdería votar por nada, y mucho menos en esta ocasión que esta todo tan ajustado.
+Como ya sabéis, [estoy viviendo fuera de España durante este curso](https://archivo.yrjo.eu/evs-portugal/). No me perdería votar por nada, y mucho menos en esta ocasión que esta todo tan ajustado.
 
 Despues de doce meses hablando de ello(s), termina de una vez el gran año electoral español, y lo hace a lo grande. Durante este año se han elegido nuevos representantes públicos en la mayoría de regiones, en todos los Ayuntamientos, y ahora en las Cortes y el Gobierno. 
   

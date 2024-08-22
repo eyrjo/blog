@@ -30,7 +30,7 @@ El paisaje me cautivó; será dificil que borre esta imagen de mi cabeza. Sólo 
 
 Nos pusimos en movimiento para buscar el centro de la ciudad, atravesando Gamla Stan (literalmente, la ciudad vieja). También conocida como “la ciudad entre los puentes”, por eso de estar repartida entre varias islas. Original del siglo XIII, Gamla Stan ha estado prácticamente abandonada hasta hace unos años.
 
-![2.jpg]({{site.baseurl}}/_img/estocolmo/2.jpg)
+![2.jpg](https://github.com/eyrjo/archivo/blob/58ac1ac495faeb239e4f434d1f229ec9930b4b21/_img/estocolmo/02.jpeg)
 
 Finalmente llegamos al Sergels Tor, que viene a ser como la Puerta del Sol de Estocolmo. Hasta aquí llegan varias de las calles más comerciales de Estocolmo y también es el centro cultural de la ciudad. Ah, y en caso de que os lo estéis preguntando, esa cosa rara que veis en el fondo se llama Kristallvertikalaccent. 
 

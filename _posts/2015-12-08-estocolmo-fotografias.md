@@ -7,7 +7,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /estocolmo-fotografias/
-date: 2015-12-08T10:00:00.000Z
+date: {}
 excerpt: >-
   Hoy os traigo un pequeño tour fotográfico de lo que me dio tiempo a ver en
   Estocolmo. La pasada primavera tuve la suerte de viajar a Estonia de la mano
@@ -24,7 +24,7 @@ Para poneros en situación, llegamos a la ciudad en barco desde Tallín, junto c
 
 Cuando por fin ponemos el pie en Estocolmo, lo primero que vemos es esto: 
 
-![1.jpg]({{site.baseurl}}/_img/estocolmo/1.jpg)
+![01.jpg](https://github.com/eyrjo/archivo/blob/master/_img/estocolmo/01.jpg)
 
 El paisaje me cautivó; será dificil que borre esta imagen de mi cabeza. Sólo por esto ya había merecido la pena el viaje. Y los amigos con los que iba pensaban igual que yo.
 

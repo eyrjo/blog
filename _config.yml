@@ -8,8 +8,11 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  Algunas cosas interesantes que escribí en su momento
-  y que siguen de moda.
+  ¿Todo vuelve?
+  Este es el archivo de la mayoría 
+  de artículos escritos en 
+  mis diferentes blogs personales 
+  hasta el año 2024.
 
 # Build settings
 

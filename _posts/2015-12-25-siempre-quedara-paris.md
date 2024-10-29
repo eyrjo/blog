@@ -6,7 +6,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /siempre-quedara-paris/
-date: 2015-12-25T10:00:00.000Z
+date: 2015-12-25T00:00:00.000Z
 excerpt: >-
   El tren se detiene en la última parada de este viaje. Parece que el azar nos
   ha vuelto a juntar. Recuerda que nada importa nada y que todo es mentira
@@ -16,7 +16,7 @@ title: (Siempre nos quedará) París
 youtubeID: KkNxZuBUr0U
 ---
 {% include youtubePlayer.html id=page.youtubeId %}
-
+   
 El tren se detiene en la última parada de este viaje. Parece que el azar nos ha vuelto a juntar. Recuerda que nada importa nada y que todo es mentira (salvo algunas cosas). Recuerda que me trajiste aquí para olvidar, y no para atormentar la castigada memoria que me hace caer en tu hechizo.
 
 Días de abandono vienen dentro de mi ajada maleta. Una estación destartalada me recibe con aires de despedidas, recuerdos perdidos y otros tiempos con más pena que gloria. A lo lejos, una silueta conocida intenta acertarme el corazón con mil flechas. Eres la razón que me hace correr sin rumbo fijo, pero sin saber porqué siempre acabo volviendo a este lugar. 
@@ -33,4 +33,4 @@ El tiempo corre como el metro abalanzándose sobre un viaducto. Tengo que termin
 
 Allí, donde Eiffel dijo “mañana lo desmonto” y nunca lo hizo, sabrás que vas a quedar atrapada para siempre. Vagar sola en esta ciudad será tu destino. Pero eso no es algo que alguna vez te haya preocupado, porque ahora, especialmente para ti, “siempre nos quedará París”. 
 
-Feliz Navidad 
+Feliz Navidad

@@ -15,6 +15,7 @@ excerpt: >-
   rebote, también visitaría Estocolmo. Aunque apenas estuve 8 horas, fue
   suficiente para poder conocer algunos de los lugares más emblemáticos de la
   capital sueca.
+title: 'Guimarães, aquí nació Portugal'
 ---
 ## El Norte de Portugal está lleno de ciudades con un interesante pasado
 

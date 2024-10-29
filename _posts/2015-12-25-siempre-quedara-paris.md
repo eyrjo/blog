@@ -6,7 +6,7 @@ categories:
   - La Mochila de Jorge
 published: true
 permalink: /siempre-quedara-paris/
-date: 2015-12-25T00:00:00.000Z
+date: {}
 excerpt: >-
   El tren se detiene en la última parada de este viaje. Parece que el azar nos
   ha vuelto a juntar. Recuerda que nada importa nada y que todo es mentira
@@ -16,6 +16,7 @@ title: (Siempre nos quedará) París
 youtubeID: KkNxZuBUr0U
 ---
 {% include youtubePlayer.html id=page.youtubeId %}
+   
    
 El tren se detiene en la última parada de este viaje. Parece que el azar nos ha vuelto a juntar. Recuerda que nada importa nada y que todo es mentira (salvo algunas cosas). Recuerda que me trajiste aquí para olvidar, y no para atormentar la castigada memoria que me hace caer en tu hechizo.
 

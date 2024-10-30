@@ -8,7 +8,7 @@ categories:
 published: true
 permalink: /paseo-coimbra/
 date: 2016-01-06T00:00:00.000Z
-excerpt: Coimbra era de los lugares que no había visitado la primera vez que viví en Portugal. Bueno, en realidad sí que sí que había visto algo de esta ciudad: un McDonalds en las afueras que no os recomiendo encarecidamente visitar. Así que en el puente de Diciembre (que aquí también existe, aunque no tan largo como en España) cogí un tren y me fui para allá.
+excerpt: Coimbra era de los lugares que no había visitado la primera vez que viví en Portugal. Bueno, en realidad sí que sí que había visto algo de esta ciudad: un McDonalds en las afueras que no os recomiendo encarecidamente visitar. Así que en el puente de Diciembre -que aquí también existe, aunque no tan largo como en España- cogí un tren y me fui para allá.
 title: Un paseo por Coimbra
 ---
 ## Coimbra es la ciudad universitaria de Portugal

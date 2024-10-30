@@ -11,7 +11,7 @@ published: true
 categories:
   - La Mochila de Jorge
 tags:
-  - Porgugal
+  - Portugal
   - Coimbra
 layout: post
 ---

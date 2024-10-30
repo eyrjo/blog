@@ -8,13 +8,7 @@ categories:
 published: true
 permalink: /paseo-coimbra/
 date: 2016-01-06T00:00:00.000Z
-excerpt: >-
-  Hoy os traigo un pequeño tour fotográfico de lo que me dio tiempo a ver en
-  Estocolmo. La pasada primavera tuve la suerte de viajar a Estonia de la mano
-  de un voluntariado europeo. Lo que no me podía imaginar es que, totalmente de
-  rebote, también visitaría Estocolmo. Aunque apenas estuve 8 horas, fue
-  suficiente para poder conocer algunos de los lugares más emblemáticos de la
-  capital sueca.
+excerpt: Coimbra era de los lugares que no había visitado la primera vez que viví en Portugal. Bueno, en realidad sí que sí que había visto algo de esta ciudad: un McDonalds en las afueras que no os recomiendo encarecidamente visitar. Así que en el puente de Diciembre (que aquí también existe, aunque no tan largo como en España) cogí un tren y me fui para allá.
 title: Un paseo por Coimbra
 ---
 ## Coimbra es la ciudad universitaria de Portugal

@@ -47,8 +47,9 @@ Cuando acabo, vuelvo a la Universidad otra vez, ya que hoy sí está abierta. Ha
 
 Por cierto, según me contaron Conchi y Lisa, amigas voluntarias en la ciudad, dice la leyenda que esas bolas que veis en la fotografía de abajo se caerán si alguien termina virgen la Universidad. Llevan bastantes años ahí y todavía no se han movido ni un centímetro.
 
-![08](https://raw.githubusercontent.com/eyrjo/archivo/1252f5f35a7d4ebf31f181a179e432ee30a7bd8a/assets/img/coimbra/08.jpg)
-![09](https://raw.githubusercontent.com/eyrjo/archivo/1252f5f35a7d4ebf31f181a179e432ee30a7bd8a/assets/img/coimbra/09.jpg)
+![08](https://raw.githubusercontent.com/eyrjo/archivo/d764680fb95f3d7d3c94ec4b3372c0aebde05bb5/assets/img/coimbra/08.jpg)
+
+![09](https://raw.githubusercontent.com/eyrjo/archivo/86b4b9054bf663543a3f66423ae2ab82f3c51700/assets/img/coimbra/09.jpg)
 
 De la Universidad bajé (con cuidado, que el suelo resbalaba) a la románica Catedral vieja, escondida en el centro de la ciudad. De allí, continué hacia el rio. Y al doblar una esquina... ¡Sorpresa! Me encuentro con Stefania y Eszter, también amigas de la formación de voluntarios, de visita también aquí. A partir de ahí ya iríamos todos juntos.
 
@@ -56,7 +57,7 @@ De la Universidad bajé (con cuidado, que el suelo resbalaba) a la románica Cat
 En el otro lado hay un par de conventos, la Quinta de las Lágrimas, con su historia romántica similar a de Los Amantes de Teruel, un lugar llamado Portugal en Miniatura, parecido al Pueblo Español de Palma de Mallorca. Pero lo que mereció la visita fue el mirador desde el que se domina toda la ciudad.
 
 ![10](https://raw.githubusercontent.com/eyrjo/archivo/1252f5f35a7d4ebf31f181a179e432ee30a7bd8a/assets/img/coimbra/10.jpg)
-![11](https://raw.githubusercontent.com/eyrjo/archivo/1252f5f35a7d4ebf31f181a179e432ee30a7bd8a/assets/img/coimbra/11.jpg)
+![11](https://raw.githubusercontent.com/eyrjo/archivo/86b4b9054bf663543a3f66423ae2ab82f3c51700/assets/img/coimbra/11.jpg)
 
 Nada más bajar, quedamos con Conchi y Lisa, que nos dicen que no hay mucho más que ver. Excepto una cosa, el Penedo da Saudade, que es mejor visitarlo de día. Así que la mañana de mi regreso a casa, después de haber salido la noche anterior con ellas y con el tiempo justo, corro para visitarlo.
 

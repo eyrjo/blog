@@ -15,6 +15,7 @@ excerpt: >-
   rebote, también visitaría Estocolmo. Aunque apenas estuve 8 horas, fue
   suficiente para poder conocer algunos de los lugares más emblemáticos de la
   capital sueca.
+title: Un paseo por Coimbra
 ---
 ## Coimbra es la ciudad universitaria de Portuga
 Y uno de los lugares que no había visitado la primera vez que viví en Portugal. Bueno, en realidad sí que había visto algo de esta ciudad: un McDonalds en las afueras que no os recomiendo encarecidamente visitar. Así que en el puente de Diciembre (que aquí también existe, aunque no tan largo como en España) cogí un tren y me fui para allá.

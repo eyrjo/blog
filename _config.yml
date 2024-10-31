@@ -1,5 +1,5 @@
-title: Memorias airadas
-tagline: Archivo de publicaciones de Jorge Serrano
+title: Blog de Jorge Serrano
+tagline: Blog de Jorge Serrano
 locale: es_ES
 author:
   name: Jorge Serrano
@@ -8,11 +8,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  ¿Todo vuelve?
-  Este es el archivo de la mayoría 
-  de los artículos escritos en 
-  mis diferentes blogs personales 
-  hasta el año 2024.
+  Blog de Jorge Serrano
 
 # Build settings
 

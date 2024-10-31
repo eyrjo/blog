@@ -37,13 +37,11 @@ layout: base
       <div class="author-avatar" style="background-image: url('{{ site.data.author.image }}')"><span class="screen-reader-text">La foto de {{ site.data.author.name }}</span></div>
       {% endif %}
       <div class="author-details">
-        <h2 class="author-title">Sobre {{ site.data.author.name }}</h2>
-        <div class="author-bio">{{ site.data.author.bio | markdownify }}</div>
-        {% if site.data.author.location and site.data.author.location != "" %}
-        <span class="author-location">{{ site.data.author.location}}</span>
+        <h3 class="author-title">Sobre Jorge Serrano</h2>
+        <div class="author-bio">Esto es una prueba, esto es una prueba{{ site.data.author.bio | markdownify }}</div>
+        <span class="author-location">Madrid, España</span>
         {% endif %}
         {% if site.data.author.url and site.data.author.url != "" %}
-        <span class="author-website"><a href="{{ site.data.author.url }}" target="_blank" rel="noopener">{{ site.data.author.url }}</a></span>
         {% endif %}
       </div><!-- .author-details -->
     </div><!-- .author-box -->

@@ -28,14 +28,14 @@ layout: base
     </p>
     <hr style="margin-top:0px;border-color:var(--minima-border-color-01)">
     {% if page.tags.size > 0 %}<span class="post-meta"> {% for tag in page.tags %}<a href="{{ site.baseurl }}/etiquetas#{{ tag | cgi_escape }}" rel="tag">#{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}</span>{% endif %}
-    <hr style="margin-bottom:0px;var(--minima-border-color-01)">
+    <hr style="margin-bottom:0px;border-color:var(--minima-border-color-01)">
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
 
-  <hr class="default">
+  <hr style="border-color:var(--minima-border-color-01)">
   <div class="author-box">
       {% if site.data.author.image and site.data.author.image != "" %}
       <div class="author-avatar" style="background-image: url('{{ site.data.author.image }}')"><span class="screen-reader-text">La foto de {{ site.data.author.name }}</span></div>

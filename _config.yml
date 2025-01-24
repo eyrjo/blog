@@ -4,7 +4,7 @@ locale: es_ES
 author:
   name: Jorge Serrano
   email: yrjo@tuta.io
-  image: assets/img/avatar.jpg
+  logo: assets/img/avatar.jpg
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
@@ -24,8 +24,8 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-archives
   - jekyll-paginate
+  - jekyll-sitemap
 
 # Theme-specific settings
 
@@ -74,19 +74,10 @@ minima:
   #  - { platform: x,              user_url: "https://x.com/jekyllrb" }
   #  - { platform: youtube,        user_url: "https://www.youtube.com/jekyll" }
 
-jekyll-archives:
-  enabled:
-    - year
-    - tags
-    - categories
-  layouts:
-    year: year-archive
-    tag: tag-archive
-    categories: categories-archive
-  permalinks:
-    year: /curso/:year
-    tag: /etiquetas/:name
-    categories: /publicacion/:name
+collections:
+  post_tags:
+    permalink: /tags/:name
+    output: true
 
 paginate: 5
 paginate_path: "/pagina/:num/"

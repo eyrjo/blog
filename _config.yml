@@ -76,8 +76,16 @@ minima:
 
 collections:
   post_tags:
-    permalink: /tags/:name
+    permalink: /etiquetas/:name
     output: true
+
+defaults:
+  - scope:
+      path: ''
+      type: post_tags
+    values:
+      permalink: "/etiquetas/:name/"
+      layout: tag
 
 paginate: 5
 paginate_path: "/pagina/:num/"

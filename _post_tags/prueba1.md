@@ -1,3 +1,4 @@
 ---
-title: Prueba 1
+title: Prueba 1  
+layout: tag
 ---

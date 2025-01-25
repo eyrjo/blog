@@ -25,7 +25,14 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-       ● {% if page.tags.size > 0 %}<span style="text-transform: capitalize;"> {% for tag in page.tags %}<a href="{{ site.baseurl }}/etiquetas#{{ tag | cgi_escape }}" rel="tag">#{{ tag }}</a>{% unless forloop.last %}  {% endunless %}{% endfor %}</span>{% endif %}
+       ● {% if page.tags.size > 0 %}<span style="text-transform: capitalize;"> <span class="date">{{ post.date | date: date_format }}</span>
+  {%- if post.tags -%}
+  <span class="tags">
+    {% for tag in post.tags %}            
+      <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
+    {% endfor %}
+    </span>
+  {%- endif -%}</span>{% endif %}
     </p> 
     <hr style="margin-bottom:0px;margin-top:0px;border-color:var(--minima-border-color-01)">
   </header>
@@ -33,18 +40,6 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
-  <hr style="border-color:var(--minima-border-color-01)">
-  <div class="author-box">
-      {% if site.data.author.image and site.data.author.image != "" %}
-      <div class="author-avatar" style="background-image: url('{{ site.data.author.image }}')"><span class="screen-reader-text">La foto de {{ site.data.author.name }}</span></div>
-      {% endif %}
-      <div class="author-details">
-        <h3 class="author-title">Sobre Jorge Serrano</h2>
-        <div class="author-bio">Esto es una prueba, esto es una prueba{{ site.data.author.bio | markdownify }}</div>
-        <span class="author-location">Madrid, España</span>
-      </div><!-- .author-details -->
-    </div><!-- .author-box -->
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}

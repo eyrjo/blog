@@ -5,4 +5,4 @@
         {% endif %}
     {% endfor %}
 {%- endcapture -%}
-{{ url | strip | default: "/etiquetas/" | relative_url}}
+{{ url | strip | default: "/tags/" | relative_url}}

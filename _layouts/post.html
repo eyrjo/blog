@@ -25,14 +25,14 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-       ● {% if page.tags.size > 0 %}<span style="text-transform: capitalize;"> <span class="date">{{ post.date | date: date_format }}</span>
-  {%- if post.tags -%}
-  <span class="tags">
-    {% for tag in post.tags %}            
-      <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
-    {% endfor %}
-    </span>
-  {%- endif -%}</span>{% endif %}
+       ● 
+      {%- if page.tags -%}
+        <span style="text-transform:capitalize;">
+          {% for tag in page.tags %}            
+            <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
+          {% endfor %}
+          </span>
+        {%- endif -%}
     </p> 
     <hr style="margin-bottom:0px;margin-top:0px;border-color:var(--minima-border-color-01)">
   </header>

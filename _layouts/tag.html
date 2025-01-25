@@ -13,7 +13,7 @@ layout: base
         <ul class="post-list">
             {% for post in tag_posts %}
             <li>
-                {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
+                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">
                     {{ post.date | date: date_format }}
                     {%- if post.tags -%}
@@ -35,7 +35,7 @@ layout: base
             {% endfor %}
         </ul>
 
-        Browse more <a href="/tags">tags</a>.
+        Descubre más entradas y <a href="/tags">etiquetas</a> en el índice.
 
 
     </div>

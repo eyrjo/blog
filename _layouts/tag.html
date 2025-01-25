@@ -13,7 +13,7 @@ layout: base
         <ul class="post-list">
             {% for post in tag_posts %}
             <li>
-                {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+                {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
                 <span class="post-meta">
                     {{ post.date | date: date_format }}
                     {%- if post.tags -%}

@@ -8,7 +8,7 @@ layout: base
 
     <div class="post-content">
         {{ content }}
-        {% assign tag = page.title | sluggify %}
+        
         {% assign tag_posts = site.tags[tag] %}
         <ul class="post-list">
             {% for post in tag_posts %}
@@ -24,7 +24,7 @@ layout: base
                             <a href="{% include tag_url tag=tag %}">#{{ tag }}</a> 
                             {% endif %}
                         {% endfor %}
-                      </span>
+                        </span>
                     {%- endif -%}
                 </span>
 
@@ -34,9 +34,8 @@ layout: base
             </li>
             {% endfor %}
         </ul>
-
+      
         Descubre más entradas y <a href="/tags">etiquetas</a> en el índice.
-
 
     </div>
 </article>

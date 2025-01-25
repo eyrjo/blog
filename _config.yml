@@ -76,7 +76,7 @@ minima:
 
 collections:
   post_tags:
-    permalink: /etiquetas/:name
+    permalink: /tags/:name
     output: true
 
 defaults:
@@ -84,7 +84,7 @@ defaults:
       path: ''
       type: post_tags
     values:
-      permalink: "/etiquetas/:name/"
+      permalink: "/tags/:name/"
       layout: tag
 
 paginate: 5

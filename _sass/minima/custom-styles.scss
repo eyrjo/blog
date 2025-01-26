@@ -3,3 +3,22 @@
 p.post-meta {
   text-transform: uppercase;
 }
+
+.post-meta .tags {
+
+    padding-left: 7px;
+
+    a {
+        color: inherit;
+    }
+}
+
+.tag-list {
+    li {
+        float: left;
+        width: 220px;
+    }
+
+    list-style: none;
+    margin-bottom: 15px;
+}

@@ -4,24 +4,24 @@ layout: base
 {% assign tag = page.title | sluggify %}
 <article class="post">
     <header class="post-header">
-        <h1 class="post-title">Etiqueta: "{{ page.title | escape }}"</h1>
+        <h1 class="post-title">Entradas con la etiqueta: "{{ page.title | escape }}"</h1>
     </header>
 
     <div class="post-content">
         {{ content }}
         
         {% assign tag_posts = site.tags[tag] %}
-        <ul class="post-list">
+        <ul>
             {% for post in tag_posts %}
             <li>
               <h4>
                     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-              </h4>
            — 
                 {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">
                     {{ post.date | date: date_format }}
                 </span>
+              </h4>
             </li>
             {% endfor %}
         </ul>

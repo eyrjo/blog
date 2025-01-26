@@ -26,13 +26,12 @@ layout: base
         </time>
       {%- endif -%}
       {%- if page.tags -%}
-       <span style="padding-left:5px"> ●   
+       <span style="padding-left:5px">●</span>  
           <span class="tags">
             {% for tag in page.tags %}            
               <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
             {% endfor %}
           </span>
-       </span>  
       {%- endif -%}
     </p> 
     <hr style="margin-bottom:0px;margin-top:0px;border-color:var(--minima-border-color-01)">

@@ -26,13 +26,17 @@ layout: base
         </time>
       {%- endif -%}
        ● 
-      {%- if page.tags -%}
-        <span style="text-transform:capitalize;">
-          {% for tag in page.tags %}            
-            <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
-          {% endfor %}
-          </span>
-        {%- endif -%}
+      {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+<span class="post-meta">
+  <span class="date">{{ post.date | date: date_format }}</span>
+  {%- if post.tags -%}
+  <span class="tags">
+    {% for tag in post.tags %}            
+      <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
+    {% endfor %}
+    </span>
+  {%- endif -%}
+</span>
     </p> 
     <hr style="margin-bottom:0px;margin-top:0px;border-color:var(--minima-border-color-01)">
   </header>

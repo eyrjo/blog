@@ -6,6 +6,10 @@ layout: base
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <h2 class="post-description" itemprop="name headline">{{ page.description | escape }}</h2>
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
+    <hr style="margin-bottom:0px;margin-top:0px;border-color:var(--minima-border-color-01)">
     <p class="post-meta">
         {%- if page.author -%}
         {% for author in page.author %}

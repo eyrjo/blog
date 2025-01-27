@@ -19,6 +19,14 @@ p.post-meta {
 }
 
 h2.post-description {
-  font: "Merriweather", serif;
+  font-family: "Merriweather", serif;
   margin-bottom: 15px;
+}
+
+.post-header {
+  margin-bottom: 20px;
+}
+
+.post-content + h1, h2, h3, h4, h5, h6 {
+  font-family: "Heebo", "Helvetica Neue", sans-serif;
 }

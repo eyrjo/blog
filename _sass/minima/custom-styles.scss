@@ -19,8 +19,8 @@ p.post-meta {
 }
 
 h2.post-description {
-  font-family: "Noto serif", -apple-system, serif;
-  margin-bottom: 15px;
+  font-family: "Noto serif", serif;
+  margin-bottom: 20px;
 }
 
 .post-header {
@@ -32,7 +32,13 @@ h2.post-description {
     font-family: "Roboto", "Helvetica Neue", -apple-system, sans-serif;
     font-weight: bold;
     }
-  font-family: "Noto serif", -apple-system, serif;
+  font-family: "Noto serif", serif;
   font-size: 1.125rem;
   line-height: 2rem;
 }
+
+.post-title {
+  margin-bottom: 10px;
+}
+
+

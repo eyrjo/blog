@@ -4,12 +4,13 @@ locale: es_ES
 author:
   name: Jorge Serrano
   email: yrjo@tuta.io
-  logo: assets/img/avatar.jpg
+  logo: /assets/img/avatar.jpg
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  "Asuntos Propios" es el blog de Jorge Serrano. Lo único que tengo claro es que no sé de nada. 
+  "Asuntos Propios" es el blog de Jorge Serrano. 
+  Lo único que tengo claro es que no sé de nada. 
 
 # Build settings
 

@@ -10,13 +10,13 @@ layout: base
       <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
     {%- endif -%}
     <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
-    <div class="post-meta">
+    <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
-      <div><img src="{{- author.logo | relative_url -}}" alt="" style="border-radius: 50%"></div>
-      <div>
+      <div class="author-image" style="margin-right:10px"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="border-radius:50%;max-width:10%;height:auto"></div>
+      <div class="post-meta" style="float:left">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
-            <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
+          <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
       {%- endif -%}
       <br>
@@ -42,7 +42,7 @@ layout: base
       {%- endif -%}
       <br>
       {% include reading-time %}
-    </p> 
+    </div> 
     <hr style="margin-bottom:10px;margin-top:0px;border-color:var(--minima-border-color-01)">
   </header>
 

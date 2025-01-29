@@ -1,6 +1,6 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
-p.post-meta {
+.post-meta {
   text-transform: uppercase;
   font-size: 0.9rem;
   margin-bottom: 10px;
@@ -43,4 +43,8 @@ h2.post-description {
   margin-bottom: 10px;
 }
 
-
+ .post-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

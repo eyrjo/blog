@@ -11,12 +11,11 @@ layout: base
     {%- endif -%}
     <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
     <p class="post-meta">
+        {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
-        {% for author in site.data.authors[page.author] %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
-        {% endfor %}
       {%- endif -%}
       <br>
       {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}

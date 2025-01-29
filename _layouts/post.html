@@ -45,7 +45,7 @@ layout: base
   <hr style="margin-bottom:20px;margin-top:0px;border-color:var(--minima-border-color-01)">
  {%- if page.tags -%}
     <div class="tags"> 
-      <span><h4 style="text-transform:uppercase">Temas:</h4></span>
+      <h4 style="text-transform:uppercase;margin-bottom: 5px">Temas:</h4>
           {% for tag in page.tags %}
       <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
           {% endfor %}

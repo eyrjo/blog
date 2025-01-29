@@ -12,8 +12,7 @@ layout: base
     <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
     <p class="post-meta">
         {%- if page.author -%}
-        {% assign author = site.data.authors[page.author] %}
-        {% for author in page.author %}
+        {% for author in site.data.authors[page.author] %}
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
             <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}

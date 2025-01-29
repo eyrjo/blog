@@ -13,7 +13,7 @@ layout: base
     <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
-      <div class="author-image"><img class="autimg" src="{{- author.logo | relative_url -}}" alt="Avatar del autor"></div>
+      <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="-webkit-filter:grayscale(100%);filter:grayscale(100%);border-radius:50%;max-width:100%;height:auto;margin:0"></div>
       <div class="post-meta">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
@@ -45,7 +45,7 @@ layout: base
   <hr style="margin-bottom:20px;margin-top:0px;border-color:var(--minima-border-color-01)">
  {%- if page.tags -%}
     <div class="tags"> 
-      <h4 style="text-transform: uppercase">Temas</h4>
+      <h4 style="text-transform:uppercase">Temas</h4>
           {% for tag in page.tags %}            
            <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
           {% endfor %}

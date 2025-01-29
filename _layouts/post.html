@@ -13,8 +13,8 @@ layout: base
     <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
-      <div class="author-image" style="margin-right:10px"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="border-radius:50%;max-width:10%;height:auto"></div>
-      <div class="post-meta" style="float:left">
+      <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="border-radius:50%;max-width:100%;height:auto;margin:0"></div>
+      <div class="post-meta">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
@@ -31,17 +31,9 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-      {%- if page.tags -%}
        <span style="padding-left:5px">●</span>  
-          <span class="tags">
-            {% for tag in page.tags %}            
-              <a href="{% include tag_url tag=tag %}">#{{ tag }}</a>
-            {% endfor %}
-          </span>
-        </div>
-      {%- endif -%}
-      <br>
-      {% include reading-time %}
+       <span>{% include reading-time %}</span>   
+        </div>   
     </div> 
     <hr style="margin-bottom:10px;margin-top:0px;border-color:var(--minima-border-color-01)">
   </header>
@@ -49,7 +41,15 @@ layout: base
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
-
+  
+  <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
+ {%- if page.tags -%}
+    <span class="tags"> Temas del artículo:
+          {% for tag in page.tags %}            
+              <a href="{% include tag_url tag=tag %}">{{ tag }}</a>.
+          {% endfor %}
+    </span>
+  {%- endif -%}
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
   {%- endif -%}

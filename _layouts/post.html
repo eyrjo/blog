@@ -46,8 +46,7 @@ layout: base
  {%- if page.tags -%}
     <div class="tags"> 
       <h4 style="text-transform:uppercase">Temas</h4>
-          {% for tag in page.tags %}            
-           <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
+          {% for tag in page.tags %}<a href="{% include tag_url tag=tag %}">{{ tag }}</a> · 
           {% endfor %}
     </span>
   {%- endif -%}

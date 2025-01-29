@@ -3,7 +3,6 @@
 .post-meta {
   text-transform: uppercase;
   font-size: 0.9rem;
-  margin-bottom: 10px;
 }
 
 .post-meta .tags {
@@ -46,5 +45,6 @@ h2.post-description {
  .post-info-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
   }

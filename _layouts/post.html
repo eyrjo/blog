@@ -31,7 +31,7 @@ layout: base
           {{ mdate | date: date_format }}
         </time>
       {%- endif -%}
-       <span style="padding-left:5px">●</span>  
+       <span style="margin-left:7px;margin-right:6px">●</span>  
        <span>{% include reading-time %}</span>   
         </div>   
     </div> 
@@ -42,11 +42,12 @@ layout: base
     {{ content }}
   </div>
   
-  <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
+  <hr style="margin-bottom:20px;margin-top:0px;border-color:var(--minima-border-color-01)">
  {%- if page.tags -%}
-    <span class="tags"> Temas del artículo:
+    <div class="tags"> 
+      <h4 style="text-transform: uppercase">Temas</h4>
           {% for tag in page.tags %}            
-              <a href="{% include tag_url tag=tag %}">{{ tag }}</a>.
+           <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
           {% endfor %}
     </span>
   {%- endif -%}

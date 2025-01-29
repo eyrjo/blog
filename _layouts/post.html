@@ -13,7 +13,7 @@ layout: base
     <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
-      <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor"></div>
+      <div class="author-image"><img class="autimg" src="{{- author.logo | relative_url -}}" alt="Avatar del autor"></div>
       <div class="post-meta">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>

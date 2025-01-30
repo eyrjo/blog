@@ -14,7 +14,7 @@ layout: base
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
       <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:100%;height:auto;margin:0"></div>
-      <div class="post-meta">
+      <div class="post-meta-post">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}

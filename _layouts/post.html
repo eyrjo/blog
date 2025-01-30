@@ -9,7 +9,7 @@ layout: base
     {%- if page.image -%}
       <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
     {%- endif -%}
-    <hr style="margin-bottom:10px;margin-top:10px;border-color:var(--minima-border-color-01)">
+    <hr style="margin-bottom:10px;margin-top:20px;border-color:var(--minima-border-color-01)">
     <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
         {%- if page.author -%}
@@ -45,7 +45,7 @@ layout: base
   <hr style="margin-bottom:20px;margin-top:0px;border-color:var(--minima-border-color-01)">
  {%- if page.tags -%}
     <div class="tags"> 
-      <h4 style="text-transform:uppercase;margin-bottom: 5px">Temas:</h4>
+      <span style="text-transform:uppercase;margin-bottom:5px;font-weight:bold;font-size:1rem">Temas:</span>
           {% for tag in page.tags %}
       <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
           {% endfor %}

@@ -77,6 +77,13 @@ h3.post-meta-list {
     margin-bottom: 10px;
   }
 
+.post-category {
+  text-transform:uppercase;
+  margin-bottom:15px;
+  font-size:1.25rem;
+  color:var(--minima-border-color-02);
+}
+
 .author-image {
   float: left;
   max-width: 45px;

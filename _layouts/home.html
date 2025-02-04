@@ -26,6 +26,11 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
+        <div>
+        {%- if post.image -%}
+          <img src="{{- post.image | relative_url -}}" alt="">
+        {%- endif -%}
+        </div>
         <div class="post-meta-home">
           <span>{{ post.date | date: date_format }}</span>
           {%- if post.tags -%}

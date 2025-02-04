@@ -79,6 +79,9 @@ collections:
   post_tags:
     permalink: /tags/:name
     output: true
+  post_categories:
+    permalink: /secciones/:name
+    output: true
 
 defaults:
   - scope:

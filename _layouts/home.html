@@ -26,11 +26,16 @@ layout: base
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
       {%- for post in posts -%}
       <li>
-        <div>
+        <div style="margin-bottom:10px">
         {%- if post.image -%}
           <img src="{{- post.image | relative_url -}}" alt="">
         {%- endif -%}
         </div>
+        <h3 style="margin-top:5px;margin-bottom:5px">
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
         <div class="post-meta-home">
           <span>{{ post.date | date: date_format }}</span>
           {%- if post.tags -%}
@@ -42,14 +47,7 @@ layout: base
             </span>
           {%- endif -%}
         </div>
-        <h3 style="margin-top:5px;margin-bottom:5px">
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          <p class="post-excerpts-home">{{ post.excerpt }}</span>
-        {%- endif -%}
+          <p class="post-excerpts-home">{{ post.description }}</p>
       </li>
       {%- endfor -%}
     </ul>

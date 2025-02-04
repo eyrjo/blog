@@ -5,9 +5,9 @@ layout: base
 
   <header class="post-header">
     {%- if page.categories -%}
-    <div>
+    <div class="post-category">
           {% for tag in page.categories %}
-      <span><a style="text-transform:uppercase;margin-bottom:5px;font-weight:bold;font-size:1rem" href="{% include category_url category=category %}">{{ tag }}</a></span>
+      <span><a href="{% include category_url category=category %}">{{ tag }}</a></span>
           {% endfor %}
     </div>
   {%- endif -%}

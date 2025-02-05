@@ -2,7 +2,7 @@
 title: Seguimos probando cosas
 author: yrjo
 description: Tras algunas semanas de trabajo, el desarrollo de la página se acerca a lo deseado
-image: /assets/img/caudete.jpg
+image: /assets/img/lbbebblbbebblbbe.jpeg
 modified_date: "2025-02-05"
 excerpt: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 tags:

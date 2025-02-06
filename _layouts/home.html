@@ -31,6 +31,7 @@ layout: base
     <div class="first-featured-headline">
     <h2><a href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
     </h2>
+    </div>
     <p class="post-excerpts-home">
         {{ latest_post.description | strip_html | strip_newlines | truncate: 136 }}
     </p>
@@ -45,7 +46,6 @@ layout: base
             </span>
           {%- endif -%}
         </div>
-    </div>
     </div>
     </div>
     
@@ -123,7 +123,7 @@ layout: base
     </div>
     
 </div>
-  </div>
+</div>
 
   {%- if posts.size > 0 -%}
   

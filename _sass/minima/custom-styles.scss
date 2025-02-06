@@ -88,7 +88,7 @@ h3.post-meta-list {
   max-width: 45px;
 }
 
-.container {
+.home-featured {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
@@ -106,6 +106,66 @@ h3.post-meta-list {
   @media (min-width: 1200px) {
     .container {
       max-width: 1140px; } }
+
+.home-featured-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.featured-column {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+ @media (min-width: 768px) {
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+   }
+
+.first-featured-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    margin-bottom: 1.5rem !important;
+   }
+
+  .first-featured-headline {
+    flex-direction: column !important;
+    display: flex !important;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+   }
+
+   h2.first-featured-headline {
+     display:block;
+     font-size: 1.75rem;
+   }
+
+  .featured-other {
+    align-items: center !important;
+    display: flex !important;
+    margin-bottom: 1rem !important;
+   }
+
+   .picture-featured-other {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+   }
+
+   h2.other-featured-headline {
+     margin-bottom: 0.5rem !important;
+     font-size: 1.25rem;
+   }
 
 .page-content {
   padding-top: 15px;

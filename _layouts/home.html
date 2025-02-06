@@ -23,29 +23,29 @@ layout: base
     {% assign latest_post = site.posts[0] %}
     <div class="featured-column">
     <div class="first-featured-box">
-      {%- if lastest_post.image -%}
+      {%- if latest_post.image -%}
       <div style="margin-bottom:10px;height:200px;background-size:cover;background-repeat:no-repeat">
-          <img src="{{- lastest_post.image | relative_url -}}" alt="">
+          <img src="{{- latest_post.image | relative_url -}}" alt="">
       </div>
       {%- endif -%}
     <div class="first-featured-headline">
-    <h2><a href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a>
-    </h2>
-    </div>
-    <p class="post-excerpts-home">
-        {{ latest_post.description | strip_html | strip_newlines | truncate: 136 }}
-    </p>
+      <h2><a href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a></h2>
+        <p class="post-excerpts-home">
+          {{ latest_post.description | strip_html | strip_newlines | truncate: 136 }}
+        </p>
     <div class="post-meta-home">
-          <span>{{ lastest_post.date | date: date_format }}</span>
-          {%- if lastest_post.tags -%}
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span>{{ latest_post.date | date: date_format }}</span>
+          {%- if latest_post.tags -%}
           <span style="margin-left:10px;margin-right:0px">●</span> 
           <span class="tags">
-            {% for tag in lastest_post.categories %}            
-              <a href="{% include tag_url tag=tag %}">{{ lastest_post.tag }}</a> 
+            {% for tag in latest_post.categories %}            
+              <a href="{% include tag_url tag=tag %}">{{ latest_post.tag }}</a> 
             {% endfor %}
             </span>
           {%- endif -%}
         </div>
+      </div>
     </div>
     </div>
     
@@ -63,12 +63,13 @@ layout: base
                     <h2><a href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
                 </div>
                 <div class="post-meta-home">
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ second_post.date | date: date_format }}</span>
-                    {%- if post.tags -%}
+                    {%- if second_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for tag in second_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ tag }}</a> 
+                            <a href="{% include tag_url tag=tag %}">{{ second_post.tag }}</a> 
                             {% endfor %}
                         </span>
                     {%- endif -%}
@@ -87,12 +88,13 @@ layout: base
                     <h2><a href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
                 </div>
                 <div class="post-meta-home">
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ third_post.date | date: date_format }}</span>
-                    {%- if post.tags -%}
+                    {%- if third_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for tag in third_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ tag }}</a> 
+                            <a href="{% include tag_url tag=tag %}">{{ third_post.tag }}</a> 
                             {% endfor %}
                         </span>
                     {%- endif -%}
@@ -111,8 +113,9 @@ layout: base
                     <h2><a href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a></h2>
                 </div>
                 <div class="post-meta-home">
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ fourth_post.date | date: date_format }}</span>
-                    {%- if fourth_post.tags -%}
+                    {%- if fourth_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for tag in fourth_post.categories %}            

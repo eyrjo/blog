@@ -175,7 +175,7 @@ h3.post-meta-list {
   .featured-other {
     align-items: center !important;
     display: flex !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 1.5rem !important;
     margin-right: 10px;
     margin-left: 10px;
     margin-top: 10px;
@@ -200,6 +200,10 @@ h3.post-meta-list {
     text-decoration: none !important;
     letter-spacing: -1px;
     line-height: 1.15;
+}
+
+.other-featured-style {
+  align-self: flex-start;
 }
 
 .page-content {

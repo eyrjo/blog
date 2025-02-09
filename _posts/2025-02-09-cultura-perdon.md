@@ -2,7 +2,7 @@
 title: ¿Tenemos realmente derecho a equivocarnos?
 author: yrjo
 description: Quizá es la hora de cambiar la cultura de la cancelación por una cultura del perdón
-image: /assets/img/lbbebblbbebblbbe.jpeg
+image: /assets/img/perdon.jpeg
 modified_date: "2025-02-09"
 excerpt: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 tags:

@@ -122,8 +122,79 @@ layout: base
                     {%- endif -%}
                 </div>
         </div>
+
+       <!-- fifth latest post -->
+        {%- assign fifth_post = site.posts[4] -%}        
+           <div class="featured-other">                
+                {% if fifth_post.image %}
+                <div class="picture-featured-other">
+                     <img src="{{- fifth_post.image | relative_url -}}" alt="">
+                </div>
+                {% endif %}        
+                <div class="other-featured-headline">
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{fifth_post.url}}">{{ fifth_post.title }}</a></h2>
+                <span class="post-meta-home">
+                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+                    <span>{{ fifth_post.date | date: date_format }}</span>
+                    {%- if fifth_post.categories -%}
+                        <span style="margin-left:10px;margin-right:0px">●</span> 
+                        <span class="tags">
+                            {% for category in fifth_post.categories %}            
+                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
+                            {% endfor %}
+                        </span>
+                    {%- endif -%}
+                </div>
+        </div>
         
     </div>
+
+{%- if posts.size > 5 -%}
+  <ul class="post-list">
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- for post in posts -%}
+    <li>
+      <h2 style="margin-top:5px;margin-bottom:5px">
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h2>
+      <div class="post-meta-home">
+        <span>{{ post.date | date: date_format }}</span>
+        {%- if post.tags -%}
+        <span style="margin-left:10px;margin-right:0px">●</span>
+        <span class="tags">
+          {% for category in post.categories %}
+            <a href="{% include tag_url tag=tag %}">{{ category }}</a>
+          {% endfor %}
+          </span>
+        {%- endif -%}
+      </div>
+    </li>
+    {%- endfor -%}
+  </ul>
+
+  {% if site.paginate %}
+    <div class="pager">
+      <ul class="pagination">
+      {%- if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+      {%- else %}
+        <li><div class="pager-edge">•</div></li>
+      {%- endif %}
+        <li><div class="current-page">{{ paginator.page }}</div></li>
+      {%- if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+      {%- else %}
+        <li><div class="pager-edge">•</div></li>
+      {%- endif %}
+      </ul>
+    </div>
+  {%- endif %}
+
+{%- endif -%}
+
+</div>
     
 </div>
 </div>

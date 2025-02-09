@@ -60,7 +60,7 @@ layout: base
                 </div>
                 {% endif %}        
                 <div class="other-featured-headline">
-                    <h2><a href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
                 <br>
                 <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

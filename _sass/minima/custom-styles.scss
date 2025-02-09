@@ -176,20 +176,29 @@ h3.post-meta-list {
     align-items: center !important;
     display: flex !important;
     margin-bottom: 1rem !important;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
    }
 
    .picture-featured-other {
-    position: relative;
-    width: 100%;
-    min-height: 1px;
-    padding-right: 15px;
-    padding-left: 15px;
+    max-width: 125px;
+    margin-right: 10px;
+    align-self: center;
    }
 
    h2.other-featured-headline {
-     margin-bottom: 0.5rem !important;
-     font-size: 1.25rem;
+     margin-bottom: 10px !important;
    }
+
+.other-featured-link {
+    color: var(--minima-text-color);
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    letter-spacing: -1px;
+    line-height: 1.15;
+}
 
 .page-content {
   padding-top: 15px;

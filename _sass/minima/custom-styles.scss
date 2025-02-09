@@ -189,6 +189,7 @@ h3.post-meta-list {
    }
 
    .other-featured-headline {
+     align-self: flex-start;
      h2 {
      margin-bottom: 5px !important;
      }
@@ -201,10 +202,6 @@ h3.post-meta-list {
     text-decoration: none !important;
     letter-spacing: -1px;
     line-height: 1.15;
-}
-
-.other-featured-headline {
-  align-self: flex-start;
 }
 
 .page-content {

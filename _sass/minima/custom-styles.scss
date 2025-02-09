@@ -155,7 +155,7 @@ h3.post-meta-list {
     flex-direction: column !important;
     display: flex !important;
     flex: 1 1 auto;
-    padding: 1.25rem;
+    padding-top: 1rem;
    }
 
 .first-featured-link {
@@ -184,11 +184,13 @@ h3.post-meta-list {
    .picture-featured-other {
     max-width: 125px;
     margin-right: 10px;
-    align-self: center;
+    align-self: flex-start;
    }
 
-   h2.other-featured-headline {
-     margin-bottom: 10px !important;
+   .other-featured-headline {
+     h2 {
+     margin-bottom: 5px !important;
+     }
    }
 
 .other-featured-link {

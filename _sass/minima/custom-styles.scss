@@ -159,7 +159,7 @@ h3.post-meta-list {
    }
 
 .first-featured-link {
-      color: var(--minima-text-color);
+      color: var(--minima-text-color) !important;
       font-size: 2rem;
       font-weight: bold;
       text-decoration: none;

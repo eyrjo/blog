@@ -40,7 +40,7 @@ layout: base
           <span style="margin-left:10px;margin-right:0px">●</span> 
           <span class="tags">
             {% for category in latest_post.categories %}            
-              <a href="{% include tag_url tag=tag %}">{{ latest_post.category }}</a> 
+              <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
             {% endfor %}
             </span>
           {%- endif -%}
@@ -61,15 +61,14 @@ layout: base
                 {% endif %}        
                 <div class="other-featured-headline">
                     <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
-                <br>
                 <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ second_post.date | date: date_format }}</span>
                     {%- if second_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
-                            {% for tag in second_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ second_post.tag }}</a> 
+                            {% for category in second_post.categories %}            
+                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
                             {% endfor %}
                         </span>
                     {%- endif -%}
@@ -86,15 +85,16 @@ layout: base
                 {% endif %}        
                 <div class="other-featured-headline">
                     <h2><a href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
-                </div>
-                <div class="post-meta-home">
+               <div class="other-featured-headline">
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+                <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ third_post.date | date: date_format }}</span>
                     {%- if third_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
-                            {% for tag in third_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ third_post.tag }}</a> 
+                            {% for category in third_post.categories %}            
+                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
                             {% endfor %}
                         </span>
                     {%- endif -%}
@@ -111,15 +111,16 @@ layout: base
                 {% endif %}        
                 <div class="other-featured-headline">
                     <h2><a href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a></h2>
-                </div>
-                <div class="post-meta-home">
+               <div class="other-featured-headline">
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+                <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ fourth_post.date | date: date_format }}</span>
                     {%- if fourth_post.categories -%}
                         <span style="margin-left:10px;margin-right:0px">●</span> 
                         <span class="tags">
-                            {% for tag in fourth_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ fourth_post.tag }}</a> 
+                            {% for category in fourth_post.categories %}            
+                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
                             {% endfor %}
                         </span>
                     {%- endif -%}

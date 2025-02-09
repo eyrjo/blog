@@ -57,7 +57,8 @@ h2.post-description {
 p.post-excerpts-home {
   font-family: "Noto serif", serif;
   font-size: 1.125rem;
-  line-height: 2rem;
+  line-height: 1.5;
+  font-weight: 500;
 }
 
 h3.post-meta-list {
@@ -145,6 +146,9 @@ h3.post-meta-list {
     min-width: 0;
     word-wrap: break-word;
     margin-bottom: 1.5rem !important;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
    }
 
   .first-featured-headline {
@@ -157,6 +161,14 @@ h3.post-meta-list {
    h2.first-featured-headline {
      display:block;
      font-size: 1.75rem;
+     a {
+      color: var(--minima-text-color);
+      font-size: 2rem;
+      font-weight: bold;
+      text-decoration: none;
+      letter-spacing: -1px;
+      line-height: 1.15;
+       }
    }
 
   .featured-other {

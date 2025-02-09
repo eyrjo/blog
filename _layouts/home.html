@@ -84,9 +84,7 @@ layout: base
                 </div>
                 {% endif %}        
                 <div class="other-featured-headline">
-                    <h2><a href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
-               <div class="other-featured-headline">
-                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
                 <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ third_post.date | date: date_format }}</span>
@@ -110,9 +108,7 @@ layout: base
                 </div>
                 {% endif %}        
                 <div class="other-featured-headline">
-                    <h2><a href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a></h2>
-               <div class="other-featured-headline">
-                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{fourth_post.url}}">{{ fourth_post.title }}</a></h2>
                 <span class="post-meta-home">
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ fourth_post.date | date: date_format }}</span>

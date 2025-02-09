@@ -194,7 +194,7 @@ h3.post-meta-list {
    }
 
 .other-featured-link {
-    color: var(--minima-text-color);
+    color: var(--minima-text-color) !important;
     font-size: 1.75rem;
     font-weight: bold;
     text-decoration: none !important;

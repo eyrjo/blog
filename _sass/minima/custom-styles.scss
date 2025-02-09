@@ -156,7 +156,9 @@ h3.post-meta-list {
     display: flex !important;
     flex: 1 1 auto;
     padding: 1.25rem;
-    a {
+   }
+
+a.first-featured-link {
       color: var(--minima-text-color);
       font-size: 2rem;
       font-weight: bold;
@@ -164,7 +166,6 @@ h3.post-meta-list {
       letter-spacing: -1px;
       line-height: 1.15;
        }
-   }
 
    h2.first-featured-headline {
      display:block;

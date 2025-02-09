@@ -29,7 +29,7 @@ layout: base
       </div>
       {%- endif -%}
     <div class="first-featured-headline">
-      <h2><a href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a></h2>
+      <h2><a class="first-featured-link" href="{{site.baseurl}}{{latest_post.url}}">{{ latest_post.title }}</a></h2>
         <p class="post-excerpts-home">
           {{ latest_post.description | strip_html | strip_newlines | truncate: 136 }}
         </p>
@@ -39,8 +39,8 @@ layout: base
           {%- if latest_post.tags -%}
           <span style="margin-left:10px;margin-right:0px">●</span> 
           <span class="tags">
-            {% for tag in latest_post.categories %}            
-              <a href="{% include tag_url tag=tag %}">{{ latest_post.tag }}</a> 
+            {% for category in latest_post.categories %}            
+              <a href="{% include tag_url tag=tag %}">{{ latest_post.category }}</a> 
             {% endfor %}
             </span>
           {%- endif -%}

@@ -167,9 +167,9 @@ h3.post-meta-list {
     min-width: 0;
     word-wrap: break-word;
     margin-bottom: 1.5rem !important;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-right: 10px;
-  margin-left: 10px;
+  margin-left: 0px;
    }
 }
 
@@ -208,9 +208,9 @@ h3.post-meta-list {
     align-items: center !important;
     display: flex !important;
     margin-bottom: 1.5rem !important;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
    }
 }
 
@@ -223,18 +223,18 @@ h3.post-meta-list {
    .other-featured-headline {
      align-self: flex-start !important;
      h2 {
-     margin-bottom: 5px !important;
-    display: flex !important;
+       margin-bottom: 5px !important;
+       display: flex !important;
      }
    }
 
 .other-featured-link {
     color: var(--minima-text-color) !important;
-    font-size: 1.55rem;
+    font-size: 1.5rem;
     font-weight: bold;
     text-decoration: none !important;
     letter-spacing: -1px;
-    line-height: 1;
+    line-height: 1.15;
 }
 
 .page-content {

@@ -224,16 +224,17 @@ h3.post-meta-list {
      align-self: flex-start !important;
      h2 {
      margin-bottom: 5px !important;
+    display: flex !important;
      }
    }
 
 .other-featured-link {
     color: var(--minima-text-color) !important;
-    font-size: 1.75rem;
+    font-size: 1.55rem;
     font-weight: bold;
     text-decoration: none !important;
     letter-spacing: -1px;
-    line-height: 1.15;
+    line-height: 1;
 }
 
 .page-content {

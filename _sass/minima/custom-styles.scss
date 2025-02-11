@@ -126,7 +126,7 @@ h3.post-meta-list {
     width: 100%;
 }
 
-.featured-column {
+.featured-column-1 .featured-column-2 {
     position: relative;
     width: 100%;
     min-height: 1px;
@@ -134,9 +134,16 @@ h3.post-meta-list {
     padding-right: 0px;
 }
  @media (min-width: 768px) {
-    .featured-column {
-        flex: 0 0 50%;
-        max-width: 50%;
+    .featured-column-1 {
+        flex: 0 0 60%;
+        max-width: 60%;
+   }
+}
+
+@media (min-width: 768px) {
+    .featured-column-2 {
+        flex: 0 0 40%;
+        max-width: 40%;
    }
 }
 

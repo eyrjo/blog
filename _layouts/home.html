@@ -65,7 +65,8 @@ layout: base
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ second_post.date | date: date_format }}</span>
                     {%- if second_post.categories -%}
-                        <span style="margin-left:10px;margin-right:0px">●</span> 
+                    <br>
+                        <span style="margin-left:0px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for category in second_post.categories %}            
                             <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
@@ -89,7 +90,8 @@ layout: base
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ third_post.date | date: date_format }}</span>
                     {%- if third_post.categories -%}
-                        <span style="margin-left:10px;margin-right:0px">●</span> 
+                    <br>
+                    <span style="margin-left:0px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for category in third_post.categories %}            
                             <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
@@ -113,7 +115,8 @@ layout: base
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ fourth_post.date | date: date_format }}</span>
                     {%- if fourth_post.categories -%}
-                        <span style="margin-left:10px;margin-right:0px">●</span> 
+                    <br>
+                    <span style="margin-left:0px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for category in fourth_post.categories %}            
                             <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
@@ -137,7 +140,8 @@ layout: base
                   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
                     <span>{{ fifth_post.date | date: date_format }}</span>
                     {%- if fifth_post.categories -%}
-                        <span style="margin-left:10px;margin-right:0px">●</span> 
+                    <br>
+                    <span style="margin-left:0px;margin-right:0px">●</span> 
                         <span class="tags">
                             {% for category in fifth_post.categories %}            
                             <a href="{% include tag_url tag=tag %}">{{ category }}</a> 

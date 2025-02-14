@@ -1,0 +1,74 @@
+---
+layout: base
+---
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    {%- if page.categories -%}
+    <div class="post-category-ideas">
+          {% for tag in page.categories %}
+      <span><a style="color: var(--minima-border-color-02)" href="{% include category_url category=category %}">{{ tag }}</a></span>
+          {% endfor %}
+    </div>
+  {%- endif -%}
+    
+    <h1 class="post-title-ideas p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    
+    <h2 class="post-description-ideas" itemprop="name description">{{ page.description | escape }}</h2>
+    
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
+    
+    <hr style="margin-bottom:10px;margin-top:20px;border-color:var(--minima-border-color-01)">
+    
+    <div class="post-info-container">
+        {% assign author = site.data.authors[page.author] %}
+        {%- if page.author -%}
+      <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:100%;height:auto;margin:0"></div>
+      <div class="post-meta-post">
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
+            {%- if forloop.last == false %}, {% endif -%}
+      {%- endif -%}
+      <br>
+      {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.modified_date -%}
+        ~ 
+        {%- assign mdate = page.modified_date | date_to_xmlschema -%}
+        <time class="dt-modified" datetime="{{ mdate }}" itemprop="dateModified">
+          {{ mdate | date: date_format }}
+        </time>
+      {%- endif -%}
+       <span style="margin-left:7px;margin-right:6px">●</span>  
+       <span>{% include reading-time %}</span>   
+        </div>   
+    
+    </div> 
+    
+    <hr style="margin-bottom:10px;margin-top:0px;border-color:var(--minima-border-color-01)">
+  
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+  <hr style="margin-bottom:20px;margin-top:0px;border-color:var(--minima-border-color-01)">
+ {%- if page.tags -%}
+    <div class="tags"> 
+      <span style="text-transform:uppercase;margin-bottom:5px;font-weight:bold;font-size:1rem">Temas:</span>
+          {% for tag in page.tags %}
+      <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
+          {% endfor %}
+    </div>
+  {%- endif -%}
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>

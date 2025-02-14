@@ -254,6 +254,15 @@ h3.post-meta-list {
     margin-bottom: 10px;
     text-align: center;
     font-style: italic;
+    letter-spacing: -1px;
+    line-height: 1.15;
+    font-weight: 700;
+}
+
+@media screen and (min-width: 800px) {
+    .post-title-ideas, .post-content h1 {
+        font-size: 2.625rem;
+    }
 }
 
 h2.post-description-ideas {

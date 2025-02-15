@@ -156,7 +156,7 @@ layout: base
 {%- if posts.size > 4 -%}
   <ul class="post-list">
     {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- for post in posts offset: 4-%}
+    {%- for post in posts offset: 5-%}
     <li>
       <h2 style="margin-top:5px;margin-bottom:5px">
         <a class="post-link" href="{{ post.url | relative_url }}">

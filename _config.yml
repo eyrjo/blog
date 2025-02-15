@@ -91,5 +91,5 @@ defaults:
       permalink: "/tags/:name/"
       layout: tag
 
-paginate: 5
+paginate: 10
 paginate_path: "/pagina/:num/"

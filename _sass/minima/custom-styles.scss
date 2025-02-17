@@ -272,8 +272,12 @@ h3.post-meta-list {
     flex: 1 1 auto;
     margin-top: 1rem;
        a {
-                text-align: center;
+            text-align: center;
                 display: flow;
+          }
+       h2 {
+            display:flex;
+            margin-bottom: .5rem !important;
           }
    }
 
@@ -291,11 +295,6 @@ h3.post-meta-list {
      font-size: 1.75rem;
      margin-bottom: .5rem !important;
      
-   }
-
- h2.second-featured-headline {
-     display:flex;
-     margin-bottom: .5rem !important;
    }
 
   .featured-other {

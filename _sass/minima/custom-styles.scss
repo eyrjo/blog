@@ -128,6 +128,15 @@ h3.post-meta-list {
     width: 100%;
 }
 
+.home-second-box {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+
 .featured-column-1 .featured-column-2 {
     position: relative;
     width: 100%;
@@ -146,6 +155,20 @@ h3.post-meta-list {
     .featured-column-2 {
         flex: 0 0 40%;
         max-width: 40%;
+   }
+}
+
+.second-column-1 .second-column-2 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+ @media (min-width: 768px) {
+    .second-column-1 {
+        flex: 0 0 60%;
+        max-width: 60%;
    }
 }
 

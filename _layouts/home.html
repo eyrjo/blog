@@ -55,52 +55,58 @@ layout: base
         
         <!-- second latest post -->
         {%- assign second_post = site.posts[1] -%}        
-        <div class="featured-other">                
-                {% if second_post.image %}
-                <div class="picture-featured-other">
-                     <img src="{{- second_post.image | relative_url -}}" alt="">
-                </div>
-                {% endif %}        
-                <div class="other-featured-headline">
-                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
-                <span class="post-meta-home">
-                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    <span>{{ second_post.date | date: date_format }}</span>
-                    {%- if second_post.categories -%}
-                    <br>
-                        <span style="margin-left:0px;margin-right:0px">●</span> 
-                        <span class="tags">
-                            {% for category in second_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
-                            {% endfor %}
-                        </span>
-                    {%- endif -%}
-                </div>
+        <div class="first-featured-box">
+          {%- if second_post.image -%}
+          <div style="background-size:cover;background-repeat:no-repeat">
+              <img src="{{- second_post.image | relative_url -}}" alt="">
+          </div>
+          {%- endif -%}
+        <div class="first-featured-headline">
+          <h2><a class="first-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+            <p class="post-excerpts-home">
+              {{ second_post.description | strip_html | strip_newlines | truncate: 136 }}
+            </p>
+        <div class="post-meta-home">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span>{{ second_post.date | date: date_format }}</span>
+              {%- if second_post.tags -%}
+              <span style="margin-left:10px;margin-right:0px">●</span> 
+              <span class="tags">
+                {% for category in second_post.categories %}            
+                  <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
+                {% endfor %}
+                </span>
+              {%- endif -%}
+            </div>
+          </div>
         </div>
         
         <!-- third latest post -->
         {%- assign third_post = site.posts[2] -%}        
-         <div class="featured-other">                
-                {% if third_post.image %}
-                <div class="picture-featured-other">
-                     <img src="{{- third_post.image | relative_url -}}" alt="">
-                </div>
-                {% endif %}        
-                <div class="other-featured-headline">
-                    <h2><a class="other-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
-                <span class="post-meta-home">
-                  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-                    <span>{{ third_post.date | date: date_format }}</span>
-                    {%- if third_post.categories -%}
-                    <br>
-                    <span style="margin-left:0px;margin-right:0px">●</span> 
-                        <span class="tags">
-                            {% for category in third_post.categories %}            
-                            <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
-                            {% endfor %}
-                        </span>
-                    {%- endif -%}
-                </div>
+        <div class="first-featured-box">
+          {%- if third_post.image -%}
+          <div style="background-size:cover;background-repeat:no-repeat">
+              <img src="{{- third_post.image | relative_url -}}" alt="">
+          </div>
+          {%- endif -%}
+        <div class="first-featured-headline">
+          <h2><a class="first-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
+            <p class="post-excerpts-home">
+              {{ third_post.description | strip_html | strip_newlines | truncate: 136 }}
+            </p>
+        <div class="post-meta-home">
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              <span>{{ third_post.date | date: date_format }}</span>
+              {%- if third_post.tags -%}
+              <span style="margin-left:10px;margin-right:0px">●</span> 
+              <span class="tags">
+                {% for category in third_post.categories %}            
+                  <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
+                {% endfor %}
+                </span>
+              {%- endif -%}
+            </div>
+          </div>
         </div>
         
         <!-- fourth latest post -->
@@ -160,12 +166,12 @@ layout: base
 </div>
 {% endif %}
 
-{%- if posts.size > 4 -%}
+{%- if posts.size > 3 -%}
 <div class="home-second-box">
   <div class="second-column-1">
 <ul class="post-list">
   {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  {%- for post in posts offset: 5-%}
+  {%- for post in posts offset: 3-%}
   <li>
     <h2 style="margin-top:5px;margin-bottom:5px">
       <a class="post-link" href="{{ post.url | relative_url }}">

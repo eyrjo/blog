@@ -34,7 +34,7 @@ layout: base
         <p class="post-excerpts-home">
           {{ latest_post.description | strip_html | strip_newlines | truncate: 136 }}
         </p>
-    <div class="post-meta-home">
+    <div class="post-meta-home-box">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span>{{ latest_post.date | date: date_format }}</span>
           {%- if latest_post.tags -%}
@@ -64,9 +64,9 @@ layout: base
         <div class="second-featured-headline">
           <h2><a class="second-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
             <p class="post-excerpts-home-2">
-              {{ second_post.description | strip_html | strip_newlines | truncate: 136 }}
+              {{ second_post.description | strip_html | strip_newlines | truncate: 75 }}
             </p>
-        <div class="post-meta-home">
+        <div class="post-meta-home-box">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               <span>{{ second_post.date | date: date_format }}</span>
               {%- if second_post.tags -%}
@@ -92,9 +92,9 @@ layout: base
         <div class="second-featured-headline">
           <h2><a class="second-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
             <p class="post-excerpts-home-2">
-              {{ third_post.description | strip_html | strip_newlines | truncate: 136 }}
+              {{ third_post.description | strip_html | strip_newlines | truncate: 75 }}
             </p>
-        <div class="post-meta-home">
+        <div class="post-meta-home-box">
           {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
               <span>{{ third_post.date | date: date_format }}</span>
               {%- if third_post.tags -%}

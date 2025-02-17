@@ -253,6 +253,10 @@ h3.post-meta-list {
     padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
+              a {
+                text-align: center;
+                display: flow;
+            }
    }
 
 .first-featured-link {
@@ -262,10 +266,6 @@ h3.post-meta-list {
       text-decoration: none;
       letter-spacing: -1px;
       line-height: 1.15;
-          a {
-                text-align: center;
-                display: flow;
-            }
        }
 
  .second-featured-headline {
@@ -293,6 +293,7 @@ h3.post-meta-list {
    h2.first-featured-headline {
      display:flex;
      font-size: 1.75rem;
+     
    }
 
  h2.second-featured-headline {

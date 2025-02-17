@@ -55,15 +55,15 @@ layout: base
         
         <!-- second latest post -->
         {%- assign second_post = site.posts[1] -%}        
-        <div class="first-featured-box">
+        <div class="second-featured-box">
           {%- if second_post.image -%}
           <div style="background-size:cover;background-repeat:no-repeat">
               <img src="{{- second_post.image | relative_url -}}" alt="">
           </div>
           {%- endif -%}
-        <div class="first-featured-headline">
-          <h2><a class="first-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
-            <p class="post-excerpts-home">
+        <div class="second-featured-headline">
+          <h2><a class="second-featured-link" href="{{site.baseurl}}{{second_post.url}}">{{ second_post.title }}</a></h2>
+            <p class="post-excerpts-home-2">
               {{ second_post.description | strip_html | strip_newlines | truncate: 136 }}
             </p>
         <div class="post-meta-home">
@@ -83,15 +83,15 @@ layout: base
         
         <!-- third latest post -->
         {%- assign third_post = site.posts[2] -%}        
-        <div class="first-featured-box">
+        <div class="second-featured-box">
           {%- if third_post.image -%}
           <div style="background-size:cover;background-repeat:no-repeat">
               <img src="{{- third_post.image | relative_url -}}" alt="">
           </div>
           {%- endif -%}
-        <div class="first-featured-headline">
-          <h2><a class="first-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
-            <p class="post-excerpts-home">
+        <div class="second-featured-headline">
+          <h2><a class="second-featured-link" href="{{site.baseurl}}{{third_post.url}}">{{ third_post.title }}</a></h2>
+            <p class="post-excerpts-home-2">
               {{ third_post.description | strip_html | strip_newlines | truncate: 136 }}
             </p>
         <div class="post-meta-home">

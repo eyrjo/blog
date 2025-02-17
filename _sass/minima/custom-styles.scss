@@ -26,8 +26,8 @@
   padding-left: 5px;
     text-transform: capitalize;
   }
-  text-align: center;
-    display: flow;
+ justify-content: center;
+  display: flex;
   text-transform: uppercase;
   font-size: 0.9rem;
 }
@@ -272,7 +272,6 @@ h3.post-meta-list {
     flex-direction: column !important;
     display: flex !important;
     flex: 1 1 auto;
-    padding-top: 1rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
        a {

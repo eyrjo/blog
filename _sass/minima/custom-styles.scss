@@ -226,7 +226,7 @@ h3.post-meta-list {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem !important;
   margin-top: 10px;
   margin-right: 0px;
   margin-left: 0px;
@@ -239,7 +239,7 @@ h3.post-meta-list {
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    margin-bottom: 1rem;
+    margin-bottom: 1rem !important;
     margin-top: 0px;
     margin-right: 0px;
     margin-left: 20px;

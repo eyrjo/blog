@@ -16,6 +16,7 @@ layout: base
     {% assign posts = site.posts offset:4%}
   {% endif %}
 
+  {% if page.url == "/" %}
   <div class="home-featured">
   <div class="home-featured-box">
     
@@ -47,50 +48,6 @@ layout: base
         </div>
       </div>
     </div>
-    {%- if posts.size > 4 -%}
-  <ul class="post-list">
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-    {%- for post in posts offset: 5-%}
-    <li>
-      <h2 style="margin-top:5px;margin-bottom:5px">
-        <a class="post-link" href="{{ post.url | relative_url }}">
-          {{ post.title | escape }}
-        </a>
-      </h2>
-      <div class="post-meta-home">
-        <span>{{ post.date | date: date_format }}</span>
-        {%- if post.tags -%}
-        <span style="margin-left:10px;margin-right:0px">●</span>
-        <span class="tags">
-          {% for category in post.categories %}
-            <a href="{% include tag_url tag=tag %}">{{ category }}</a>
-          {% endfor %}
-          </span>
-        {%- endif -%}
-      </div>
-    </li>
-    {%- endfor -%}
-  </ul>
-
-  {% if site.paginate %}
-    <div class="pager">
-      <ul class="pagination">
-      {%- if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
-        <li><div class="current-page">{{ paginator.page }}</div></li>
-      {%- if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
-      {%- else %}
-        <li><div class="pager-edge">•</div></li>
-      {%- endif %}
-      </ul>
-    </div>
-  {%- endif %}
-
-{%- endif -%}
 
     </div>
     
@@ -201,6 +158,60 @@ layout: base
 </div>
     
 </div>
+{% endif %}
+
+{%- if posts.size > 4 -%}
+<div class="home-second-box">
+  <div class="second-column-1">
+<ul class="post-list">
+  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+  {%- for post in posts offset: 5-%}
+  <li>
+    <h2 style="margin-top:5px;margin-bottom:5px">
+      <a class="post-link" href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </h2>
+    <div class="post-meta-home">
+      <span>{{ post.date | date: date_format }}</span>
+      {%- if post.tags -%}
+      <span style="margin-left:10px;margin-right:0px">●</span>
+      <span class="tags">
+        {% for category in post.categories %}
+          <a href="{% include tag_url tag=tag %}">{{ category }}</a>
+        {% endfor %}
+        </span>
+      {%- endif -%}
+    </div>
+  </li>
+  {%- endfor -%}
+</ul>
+{% if site.paginate %}
+  <div class="pager">
+    <ul class="pagination">
+    {%- if paginator.previous_page %}
+      <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">{{ paginator.previous_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+      <li><div class="current-page">{{ paginator.page }}</div></li>
+    {%- if paginator.next_page %}
+      <li><a href="{{ paginator.next_page_path | relative_url }}" class="next-page">{{ paginator.next_page }}</a></li>
+    {%- else %}
+      <li><div class="pager-edge">•</div></li>
+    {%- endif %}
+    </ul>
+  </div>
+  </div>
+{%- endif %}
+</div>
+
+{%- endif -%}
+
 </div>
   
+
+
+
+
 </div>

@@ -250,9 +250,7 @@ h3.post-meta-list {
     flex-direction: column !important;
     display: flex !important;
     flex: 1 1 auto;
-    padding-top: 1rem;
     margin-top: 1rem;
-    margin-bottom: 1rem;
               a {
                 text-align: center;
                 display: flow;
@@ -273,7 +271,6 @@ h3.post-meta-list {
     display: flex !important;
     flex: 1 1 auto;
     margin-top: 1rem;
-    margin-bottom: 1rem;
        a {
                 text-align: center;
                 display: flow;
@@ -292,12 +289,13 @@ h3.post-meta-list {
    h2.first-featured-headline {
      display:flex;
      font-size: 1.75rem;
+     margin-bottom: .5rem !important!
      
    }
 
  h2.second-featured-headline {
      display:flex;
-     margin-bottom: 10px;
+     margin-bottom: .5rem !important;
    }
 
   .featured-other {

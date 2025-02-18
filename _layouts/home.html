@@ -18,13 +18,10 @@ layout: base
 
   {% if page.url == "/" %}
   <div class="home-featured">
-  <div class="home-featured-box">
-    
-    <!-- latest post -->
+    <div class="home-featured-box">
+    <div>
     {% assign latest_post = site.posts[0] %}
-    <div class="featured-column-1">
-    <div class="first-featured-box">
-      {%- if latest_post.image -%}
+    {%- if latest_post.image -%}
       <div style="background-size:cover;background-repeat:no-repeat">
           <img src="{{- latest_post.image | relative_url -}}" alt="">
       </div>
@@ -46,6 +43,12 @@ layout: base
             </span>
           {%- endif -%}
         </div>
+      </div>
+      </div>
+    <!-- latest post -->
+    <div class="featured-column-1">
+    <div class="first-featured-box">
+      
       </div>
     </div>
 

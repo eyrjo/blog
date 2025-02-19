@@ -56,29 +56,33 @@ layout: base
 {%- if posts.size > 1 -%}
 <div class="home-second-box">
   <div class="second-column-1">
-<ul class="post-list">
-  {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-  {%- for post in posts offset: 1-%}
-  <li>
-    <h2 style="margin-top:5px;margin-bottom:5px">
-      <a class="post-link" href="{{ post.url | relative_url }}">
-        {{ post.title | escape }}
-      </a>
-    </h2>
-    <div class="post-meta-home">
-      <span>{{ post.date | date: date_format }}</span>
-      {%- if post.tags -%}
-      <span style="margin-left:10px;margin-right:0px">●</span>
-      <span class="tags">
-        {% for category in post.categories %}
-          <a href="{% include tag_url tag=tag %}">{{ category }}</a>
-        {% endfor %}
-        </span>
-      {%- endif -%}
-    </div>
-  </li>
-  {%- endfor -%}
-</ul>
+    <div class="featured-other">                
+      <div class="other-featured-headline">
+          <h2>
+              <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
+          </h2>
+          <p class="post-excerpts-home">
+                {{ post.description | strip_html | strip_newlines | truncate: 70 }}
+          </p>
+      </div>
+      <div class"post-meta-home-other">      
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            <span>{{ post.date | date: date_format }}</span>
+            {%- if post.categories -%}
+              <span style="margin-left:0px;margin-right:0px">●</span> 
+              <span class="tags">
+                    {% for category in post.categories %}            
+                        <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
+                    {% endfor %}
+              </span>
+            {%- endif -%}
+      </div>
+      {% if post.image %}
+          <div class="picture-featured-other">
+              <img src="{{- post.image | relative_url -}}" alt="">
+          </div>
+      {% endif %}  
+      </div>
 {% if site.paginate %}
   <div class="pager">
     <ul class="pagination">

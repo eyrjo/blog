@@ -389,7 +389,8 @@ h3.post-meta-list {
     border-bottom-width: 1px;
 }
 
-.second-column-1 > .featured-other-box:nth-last-child > .featured-other {
+.second-column-1 > .featured-other-box:last-child {
+    border-bottom: none;
     display: flex;
     padding-top: 1.5rem;
     margin-bottom: 1.5rem;

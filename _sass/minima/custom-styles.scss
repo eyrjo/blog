@@ -34,12 +34,14 @@
 
 .post-meta-home-other {
   .tags {
-  padding-left: 5px;
   text-transform: capitalize;
   }
   text-transform: uppercase;
   font-size: 15px;
   line-height:20px;
+  justify-self: left;
+  align-self: flex-start;
+  display: flex;
 }
 
 .post-meta .tags {
@@ -88,11 +90,11 @@ p.post-excerpts-home {
 
 p.post-excerpts-home-2 {
   font-family: "Noto serif", serif;
-  font-size: 1rem;
+  font-size: 15px;
   line-height: 1.25;
   font-weight: 500;
-  margin-bottom: .5rem;
-      text-align: center;
+  margin-bottom: 10px;
+      text-align: left;
 }
 
 h3.post-meta-list {
@@ -190,6 +192,7 @@ h3.post-meta-list {
     max-width: 100%;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: 2rem;
     width: 100%;
 }
 
@@ -220,11 +223,20 @@ h3.post-meta-list {
     min-height: 1px;
     padding-left: 0px;
     padding-right: 0px;
+    display: flex;
+    flex-direction: column;
 }
  @media (min-width: 768px) {
     .second-column-1 {
-        flex: 0 0 60%;
-        max-width: 60%;
+        flex: 0 0 67%;
+        max-width: 67%;
+   }
+}
+
+@media (min-width: 768px) {
+    .second-column-2 {
+        flex: 0 0 33%;
+        max-width: 33%;
    }
 }
 
@@ -369,6 +381,10 @@ h3.post-meta-list {
      
    }
 
+  .featured-other-box {
+    display: flex;
+}
+
   .featured-other {
     align-items: center !important;
     display: flex !important;
@@ -376,6 +392,8 @@ h3.post-meta-list {
     margin-right: 0px;
     margin-left: 0px;
     margin-top: 10px;
+    flex-direction: column;
+    flex: 1 1 75%;
    }
 
 @media (min-width: 768px) {
@@ -384,28 +402,35 @@ h3.post-meta-list {
     display: flex !important;
     margin-bottom: 1.5rem !important;
     margin-right: 0px;
-    margin-left: 10px;
+    margin-left: 0px;
     margin-top: 0px;
+    flex-direction: column;
+    flex: 1 1 75%;
    }
 }
 
    .picture-featured-other {
-    max-width: 100px;
-    margin-right: 10px;
+    max-width: 160px;
+    margin-left: 10px;
     align-self: flex-start;
+    flex: 1 1 20%;
+    /* aspect-ratio: 1 / 1.5; */
+    height: auto;
    }
 
    .other-featured-headline {
-     align-self: flex-start !important;
+    align-self: flex-start !important;
+    display: flex;
+    flex-direction: column;
      h2 {
-       margin-bottom: 5px !important;
+       margin-bottom: 10px !important;
        display: flex !important;
      }
    }
 
 .other-featured-link {
     color: var(--minima-text-color) !important;
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
     text-decoration: none !important;
     letter-spacing: -1px;

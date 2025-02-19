@@ -4,7 +4,7 @@
           <h2>
               <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
           </h2>
-          <p class="post-excerpts-home">
+          <p class="post-excerpts-home-2">
                 {{ post.description | strip_html | strip_newlines | truncate: 70 }}
           </p>
       </div>
@@ -12,7 +12,7 @@
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span>{{ post.date | date: date_format }}</span>
             {%- if post.categories -%}
-              <span style="margin-left:0px;margin-right:0px">●</span> 
+              <span style="margin-left:10px;margin-right:10px">●</span> 
               <span class="tags">
                     {% for category in post.categories %}            
                         <a href="{% include tag_url tag=tag %}">{{ category }}</a> 

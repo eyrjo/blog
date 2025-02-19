@@ -83,7 +83,7 @@ p.post-excerpts-home {
   /*font-family: "Noto serif", serif;*/
   font-size: 1.1rem;
   line-height: 1.23;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 1rem;
   text-align: center;
 }
@@ -92,7 +92,7 @@ p.post-excerpts-home-2 {
   /*font-family: "Noto serif", serif;*/
   font-size: 15px;
   line-height: 1.25;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
   text-align: left;
 }
@@ -383,10 +383,16 @@ h3.post-meta-list {
 
   .featured-other-box {
     display: flex;
-    padding-top: 15px;
+    padding-top: 1.5rem;
     border-color: var(--minima-border-color-01);
     border-bottom-style: solid;
     border-bottom-width: 1px;
+}
+
+.featured-other-box:last-child{
+    display: flex;
+    padding-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
   .featured-other {

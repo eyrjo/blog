@@ -56,6 +56,7 @@ layout: base
 {%- if posts.size > 1 -%}
 <div class="home-second-box">
   <div class="second-column-1">
+    {%- for post in site.posts offset:1 -%}
     <div class="featured-other">                
       <div class="other-featured-headline">
           <h2>
@@ -99,6 +100,7 @@ layout: base
     {%- endif %}
     </ul>
   </div>
+  {%- endfor -%}
   </div>
 {%- endif %}
 </div>

@@ -390,7 +390,7 @@ h3.post-meta-list {
 }
 
 .second-column-1 > .featured-other-box:last-child {
-    border-bottom: none;
+    border-bottom: none !important ;
     display: flex;
     padding-top: 1.5rem;
     margin-bottom: 1.5rem;

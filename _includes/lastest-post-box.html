@@ -1,4 +1,5 @@
-<div class="featured-other">                
+<div class="featured-other-box">
+  <div class="featured-other">
       <div class="other-featured-headline">
           <h2>
               <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
@@ -7,7 +8,7 @@
                 {{ post.description | strip_html | strip_newlines | truncate: 70 }}
           </p>
       </div>
-      <div class"post-meta-home-other">      
+      <div class="post-meta-home-other">      
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span>{{ post.date | date: date_format }}</span>
             {%- if post.categories -%}
@@ -19,9 +20,10 @@
               </span>
             {%- endif -%}
       </div>
-      {% if post.image %}
-          <div class="picture-featured-other">
+  </div>
+  {% if post.image %}
+    <div class="picture-featured-other">
               <img src="{{- post.image | relative_url -}}" alt="">
-          </div>
-      {% endif %}  
-      </div>
+    </div>
+  {% endif %}  
+</div>

@@ -389,7 +389,7 @@ h3.post-meta-list {
     border-bottom-width: 1px;
 }
 
-.second-column-1 > .featured-other-box:nth-last-child (-n + 1) {
+.second-column-1 > .featured-other-box:nth-last-child {
     display: flex;
     padding-top: 1.5rem;
     margin-bottom: 1.5rem;

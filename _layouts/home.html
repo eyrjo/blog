@@ -59,7 +59,7 @@ layout: base
     {% include lastest-post-box.html %}
 
     {% endfor %}
-    
+
   {% if site.paginate %}
   <div class="pager">
     <ul class="pagination">
@@ -76,6 +76,9 @@ layout: base
     {%- endif %}
     </ul>
   </div>
+  </div>
+  <div class="second-column-2">
+    {% include home-about-box.html %}
   </div>
 {%- endif %}
 </div>

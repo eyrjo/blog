@@ -485,3 +485,35 @@ h2.post-description-ideas {
     font-size: 1.75rem;
     letter-spacing: -0.25px;
 }
+
+.about-container {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.about-image {
+width: 32px;
+height: 32px;
+border-radius: 8px;
+display: block;
+-webkit-filter:grayscale(100%);
+filter:grayscale(100%) contrast(1.5);
+}
+
+.about-info-box {
+display: flex;
+flex-direction: column;
+gap: 2px;
+}
+
+.about-info-title{
+font-weight: 700;
+line-height: 24px;
+font-size: 18px;
+}
+
+.about-info-description{
+line-height: 20px;
+font-size: 12px;
+}

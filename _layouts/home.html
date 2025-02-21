@@ -54,7 +54,7 @@ layout: base
 {%- if posts.size > 1 -%}
 <div class="home-second-box">
   <div class="second-column-1">
-    {% for post in paginator.posts offset:1%}
+    {% for post in paginator.posts %}
         
     {% include lastest-post-box.html %}
 

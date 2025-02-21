@@ -9,8 +9,9 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  "Asuntos Propios" es el blog de Jorge Serrano. 
-  Lo único que tengo claro es que no sé de nada. 
+  1. Busco lo auténtico para que te sea de utilidad
+  2. Capturo la belleza para hacerla inolvidable
+  3. Publico cada viernes
 
 # Build settings
 
@@ -91,5 +92,5 @@ defaults:
       permalink: "/tags/:name/"
       layout: tag
 
-paginate: 10
+paginate: 5
 paginate_path: "/pagina/:num/"

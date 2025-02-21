@@ -8,7 +8,7 @@ author:
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
+description: >-
   1. Busco lo auténtico para que te sea de utilidad
   2. Capturo la belleza para hacerla inolvidable
   3. Publico cada viernes

@@ -94,3 +94,7 @@ defaults:
 
 paginate: 5
 paginate_path: "/pagina/:num"
+
+pagination: 
+  enabled: true
+  offset: 1

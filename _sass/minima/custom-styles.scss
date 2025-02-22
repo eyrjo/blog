@@ -396,6 +396,10 @@ h3.post-meta-list {
     margin-bottom: 1.25rem;
 }
 
+.second-column-1 > .featured-other-box > .featured-other:nth-child(-n+5) {
+	display:none !important;
+}
+
   .featured-other {
     align-items: center !important;
     display: flex !important;

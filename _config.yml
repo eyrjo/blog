@@ -26,7 +26,7 @@ remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
 
 # Theme-specific settings

@@ -93,4 +93,4 @@ defaults:
       layout: tag
 
 paginate: 5
-paginate_path: "/pagina/:num/"
+paginate_path: "/pagina/:num"

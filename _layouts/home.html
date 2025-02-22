@@ -12,7 +12,7 @@ layout: base
   {% if site.paginate %}
     {% assign posts = paginator.posts %}
   {% else %}
-    {% assign posts = site.posts offset:1%}
+    {% assign posts = site.posts %}
   {% endif %}
 
   {% if page.url == "/" %}
@@ -50,7 +50,7 @@ layout: base
 </div>
 {% endif %}
 
-{%- if posts.size > 1 -%}
+{%- if posts.size > 0 -%}
 <div class="home-second-box">
   <div class="second-column-1">
     {% for post in paginator.posts %}

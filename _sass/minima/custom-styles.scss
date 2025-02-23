@@ -85,7 +85,7 @@
 h2.post-description {
   /*font-family: "Noto serif", serif;*/
   margin-bottom: 20px;
-  font-size: 1.375rem;
+  font-size: 18px;
   line-height: 24px;
   letter-spacing: .2px;
 }
@@ -100,8 +100,16 @@ h2.post-description {
     font-weight: bold;
     }
   font-family: "Noto serif", serif;
-  font-size: 20px;
-  line-height: 1.6rem;
+  font-size: 19px;
+  line-height: 1.75rem;
+}
+
+@media screen and (min-width: 950px) {
+    .post-content .e-content {
+        max-width: 728px;
+        /* margin-right: 5em; */
+        /* margin-left: 5em; */
+    }
 }
 
 p.post-excerpts-home {

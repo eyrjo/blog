@@ -33,11 +33,11 @@ layout: base
     <div class="post-meta-home-box">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span>{{ latest_post.date | date: date_format }}</span>
-          {%- if latest_post.tags -%}
+          {%- if latest_post.author -%}
           <span style="margin-left:10px;margin-right:0px">●</span> 
           <span class="tags">
-            {% for category in latest_post.categories %}            
-              <a href="{% include tag_url tag=tag %}">{{ category }}</a> 
+            {% for author in latest_post.author %}            
+              <span>{{ author }}</span> 
             {% endfor %}
             </span>
           {%- endif -%}

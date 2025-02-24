@@ -33,13 +33,12 @@ layout: base
     <div class="post-meta-home-box">
       {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
           <span>{{ latest_post.date | date: date_format }}</span>
+          {% assign author = site.data.authors[latest_post.author] %}
           {%- if latest_post.author -%}
-          <span style="margin-left:10px;margin-right:0px">●</span> 
-          <span class="tags">
-           {% assign author = site.data.authors[latest_post.author] %} {% for author in latest_post.author %}   
+          <span style="margin-left:5px;margin-right:0px">·</span> 
+          <span class="home-author-name">  
               <span>{{ author.name }}</span> 
-            {% endfor %}
-            </span>
+          </span>
           {%- endif -%}
         </div>
       </div>

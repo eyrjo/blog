@@ -36,7 +36,7 @@ layout: base
           {%- if latest_post.author -%}
           <span style="margin-left:10px;margin-right:0px">●</span> 
           <span class="tags">
-            {% for author in latest_post.author %} {% assign author = site.data.authors[latest_post.author] %}          
+           {% assign author = site.data.authors[latest_post.author] %}          
               <span>{{ author }}</span> 
             {% endfor %}
             </span>

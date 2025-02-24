@@ -35,7 +35,7 @@ layout: base
           <span>{{ latest_post.date | date: date_format }}</span>
           {% assign author = site.data.authors[latest_post.author] %}
           {%- if latest_post.author -%}
-          <span style="margin-left:5px;margin-right:0px">·</span> 
+          <span style="margin-left:7px;margin-right:0px">•</span> 
           <span class="home-author-name">  
               <span>{{ author.name }}</span> 
           </span>
@@ -44,8 +44,8 @@ layout: base
       </div>
       </div>
       </div>
-  
 
+    
 </div>
 {% endif %}
 

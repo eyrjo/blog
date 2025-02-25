@@ -55,6 +55,9 @@
   .tags {
   text-transform: capitalize;
   }
+  .home-author-name {
+  padding-left: 5px;
+  }
   text-transform: uppercase;
   font-size: 12px;
   line-height:20px;
@@ -110,7 +113,7 @@ p.post-excerpts-home {
   text-align: center;
 }
 
-p.post-excerpts-home-2 {
+.post-excerpts-home-2 {
   /*font-family: "Noto serif", serif;*/
   font-size: 15px;
   line-height: 1.25;
@@ -351,7 +354,7 @@ h3.post-meta-list {
     flex-direction: column;
     display: flex !important;
     flex: 1 1 50%;
-    align-items: center;
+    align-items: flex-start;
     align-self: center;
               a {
                 text-align: center;

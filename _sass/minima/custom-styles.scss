@@ -628,6 +628,12 @@ h3.post-meta-list {
   margin-top: 30px;
 }
 
+@media (max-width: 768px) {
+.page-content {
+    padding: 30px 0;
+    flex: 1 0 auto;
+  }
+}
 
 .post-category-ideas {
     text-transform: uppercase;

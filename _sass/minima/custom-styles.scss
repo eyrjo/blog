@@ -92,10 +92,10 @@
 @media screen and (min-width: 600px) {
   .site-nav {
     .trigger {
-    padding-top: 10px;
+    padding-top: 15px;
     display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     line-height: 10px;
     flex-wrap: wrap;
     flex: 1 1 auto;
@@ -116,7 +116,7 @@
         justify-content: center;
         justify-self: center;
         display: flex;
-        line-height: 5px;
+        line-height: 10px;
         align-items: center;
     }
 }

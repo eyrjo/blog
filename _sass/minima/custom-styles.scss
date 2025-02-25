@@ -1,5 +1,35 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.topbar-content {
+    flex-flow: wrap;
+    gap: 12px;
+    align-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.topbar-image {
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    border-radius: 8px;
+    filter: grayscale(100%) contrast(1.5);
+}
+
+.site-nav {
+  position:relative;
+  right: -15px;
+}
+
 .pagination {
     margin-bottom: 20px;
     margin-left: 0;

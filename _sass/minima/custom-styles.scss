@@ -19,19 +19,12 @@
 
 @media (min-width: 768px) {
     .top-bar-content {
-      .top-bar-title {
-        justify-content:center;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        flex: 1 1 auto;
-      }
-      .site-title {
-    font-size: 24px;
-    line-height: 32px;
-    text-align: center;
-    white-space: nowrap;
-      }
+            .site-title {
+              font-size: 24px;
+              line-height: 32px;
+              text-align: center;
+              white-space: nowrap;
+            }
     flex-flow: wrap;
     align-content: center;
     display: flex;
@@ -41,6 +34,16 @@
     flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+.top-bar-title {
+        justify-content:center;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex: 1 1 auto;
   }
 }
 

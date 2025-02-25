@@ -623,7 +623,9 @@ h3.post-meta-list {
 }
 
 .page-content {
-  padding-top: 15px;
+  padding: 0;
+  flex: 1 0 auto;
+  margin-top: 30px;
 }
 
 

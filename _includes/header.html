@@ -6,7 +6,9 @@
     {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
     <div class="topbar-content">
     <a href="/"> <img class="topbar-image" src="/assets/img/avatar.jpg" alt="Jorge Serrano"> </a>
+    <div class="topbar-title">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    </div>
     </div>
 
     <nav class="site-nav">

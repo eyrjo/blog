@@ -60,15 +60,31 @@
 }
 
 .site-nav {
-  position: relative !important;
-  right: -15px !important;
-  border: 0 !important;
-  text-align: left !important;
+  flex-direction: row;
+    position: relative !important;
+    right: 0;
+    border: 0 !important;
+    text-align: center !important;
+    display: flex;
+    justify-content: flex-start;
+  .trigger {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+    line-height: 10px;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
   .page-link {
     height: 100%;
-    display: flex;
+    display: flex !important;
     align-items: center;
     white-space: nowrap;
+    margin-left:0;
+    line-height: 1;
+    }
   }
 }
 

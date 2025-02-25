@@ -6,11 +6,23 @@
 }
 
 .topbar-content {
+  .site-title {
+    font-size: 18px;
+  }
     flex-flow: wrap;
     gap: 12px;
     align-content: center;
     display: flex;
     align-items: center;
+    line-height: 40px;
+}
+
+@media (min-width: 768px) {
+    .top-bar-content {
+      .top-bar-title {
+        justify-content:center;
+      }
+  }
 }
 
 .topbar-image {
@@ -30,7 +42,26 @@
   right: -15px !important;
   border: 0 !important;
   text-align: left !important;
+  .page-link {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+  }
 }
+
+@media screen and (min-width: 600px) {
+    .site-nav {
+        position: static;
+        border: none;
+        background-color: inherit;
+        justify-content: center;
+        justify-self: center;
+        display: flex;
+        line-height: 5px;
+    }
+}
+
 
 .pagination {
     margin-bottom: 20px;

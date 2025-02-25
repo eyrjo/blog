@@ -4,9 +4,9 @@
           <h2>
               <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
           </h2>
-          <p class="post-excerpts-home-2">
+      </div>
+      <div class="post-excerpts-home-2">
                 {{ post.description | strip_html | strip_newlines | truncate: 70 }}
-          </p>
       </div>
       <div class="post-meta-home-other">      
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}

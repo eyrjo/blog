@@ -26,8 +26,10 @@
 }
 
 .site-nav {
-  position:relative;
-  right: -15px;
+  position: relative !important;
+  right: -15px !important;
+  border: 0 !important;
+  text-align: left !important;
 }
 
 .pagination {

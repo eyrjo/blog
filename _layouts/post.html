@@ -58,7 +58,7 @@ layout: base
     <div class="tags"> 
       <span style="text-transform:uppercase;margin-bottom:5px;font-weight:bold;font-size:1rem">Temas:</span>
           {% for tag in page.tags %}
-      <span><a href="{% include tag_url tag=tag %}">{{ tag }}</a> · </span>
+      <span class="post-tags-box"><a href="{% include tag_url tag=tag %}">{{ tag }}</a></span>
           {% endfor %}
     </div>
   {%- endif -%}

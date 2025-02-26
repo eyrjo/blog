@@ -7,7 +7,7 @@
 
 .topbar-content {
   .site-title {
-    font-size: 18px;
+    font-size: 14px;
   }
     flex-flow: wrap;
     gap: 12px;
@@ -85,6 +85,7 @@
     white-space: nowrap;
     margin-left:0;
     line-height: 1;
+    font-size:14px;
     }
   }
 }
@@ -102,14 +103,18 @@
     justify-content: center;
     align-items: center;
     align-content: center;
-    /* border-top: 1px; */
-    /* border-top-color: white; */
     border-color: var(--minima-border-color-01);
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
     border-top-style: solid;
     border-top-width: 1px;
-  }
+      .page-link {
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    white-space: nowrap;
+    margin-left:0;
+    line-height: 1;
+        }
+    }
         position: static;
         border: none;
         background-color: inherit;
@@ -514,8 +519,9 @@ h3.post-meta-list {
       font-size: 2rem;
       font-weight: bold;
       text-decoration: none;
-      letter-spacing: -1px;
+      letter-spacing: -.5px;
       line-height: 1.15;
+      margin-top: 5px;
        }
 
  .second-featured-headline {
@@ -603,6 +609,17 @@ h3.post-meta-list {
     margin-bottom: 20px;
    }
 
+@media (max-width: 768px) {
+   .picture-featured-other-img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: block;
+    margin: 0 auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
    .other-featured-headline {
     align-self: flex-start !important;
     display: flex;
@@ -630,7 +647,7 @@ h3.post-meta-list {
 
 @media (max-width: 768px) {
 .page-content {
-    padding: 30px 0;
+    padding: 20px 0;
     flex: 1 0 auto;
     margin-top:0px;
   }

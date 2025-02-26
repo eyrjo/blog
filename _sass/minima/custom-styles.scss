@@ -68,8 +68,8 @@
     text-align: center !important;
     display: flex;
     justify-content: flex-start;
-    background-color: unset !important;
-    margin-bottom:10px;
+    background-color: transparent !important;
+    margin-bottom:10px !important;
   .trigger {
     display: flex;
     flex-direction: row;
@@ -125,6 +125,8 @@
         display: flex;
         line-height: 10px;
         align-items: center;
+        background-color: transparent !important;
+        margin-bottom:10px !important;
     }
 }
 

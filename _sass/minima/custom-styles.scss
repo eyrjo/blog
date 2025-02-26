@@ -743,7 +743,9 @@ font-size: 12px;
     border: 1px solid;
     padding: 1px 5px;
     border-color: var(--minima-border-color-01);
-    color: var(--minima-text-color) !important;
     text-transform: uppercase;
     font-size: 14px;
+  a {
+    color: var(--minima-text-color) !important;
+  }
 }

@@ -5,6 +5,12 @@
     flex-direction: column;
 }
 
+@media (min-width: 768px) {
+  .post .h-entry {
+    padding:0 30px;
+  }
+}
+
 .topbar-content {
   .site-title {
     font-size: 14px;

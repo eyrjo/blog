@@ -12,16 +12,20 @@
             </svg><span>Suscríbete</span>
           </a>
         </p>
-      {%- if site.author %}
-        <ul class="contact-list">
+      
+        <div class="contact-list">
+           <div class="about-info-title">
+              {{ site.title | escape }}
+            </div>
+          {%- if site.author %}
           {% if site.author.name -%}
-            <li class="p-name">{{ site.author.name | escape }}</li>
+            <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
           {% endif -%}
           {% if site.author.email -%}
-            <li><a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></li>
+            <div<a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
           {%- endif %}
-        </ul>
-      {%- endif %}
+          {%- endif %}
+        </div>
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>

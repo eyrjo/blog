@@ -14,19 +14,18 @@
         </p>
       
         <div class="contact-list">
-           <div class="about-info-title">
+              <div class="about-info-title">
               {{ site.title | escape }}
-            </div>
+              </div>
           {%- if site.author %}
           {% if site.author.name -%}
-            <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
+              <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
           {% endif -%}
           {% if site.author.email -%}
-            <div<a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+              <div<a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
           {%- endif %}
           {%- endif %}
         </div>
-      </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
       </div>

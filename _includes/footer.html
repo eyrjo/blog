@@ -14,20 +14,27 @@
         </p>
       
         <div class="contact-list">
-              <div class="about-info-title">
-              {{ site.title | escape }}
-              </div>
           {%- if site.author %}
           {% if site.author.name -%}
               <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
           {% endif -%}
           {% if site.author.email -%}
-              <div<a class="u-email" href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></div>
+              <div<a class="u-email" href="mailto:{{ site.author.email }}">Contacto</a></div>
           {%- endif %}
           {%- endif %}
         </div>
       <div class="footer-col">
-        <p>{{ site.description | escape }}</p>
+        <div class="about-container">
+            <img class="about-image" src="/assets/img/avatar.jpg" alt="Jorge Serrano">
+             <div class="about-info-box">
+                <div class="about-info-title">
+                  {{ site.title | escape }}
+                </div>
+            <div class="about-info-description">
+                {{ site.description | escape }}
+            </div>
+        </div>
+        </div>
       </div>
     </div>
 

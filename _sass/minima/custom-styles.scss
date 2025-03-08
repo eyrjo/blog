@@ -66,6 +66,27 @@
     filter: grayscale(100%) contrast(1.5);
 }
 
+.topbar-suscribe {
+            line-height: 20px;
+            font-weight: 500;
+            user-select: none;
+            border: 1px solid transparent;
+            align-items: center;
+            display: flex;
+            position: relative;
+            gap: 6px;
+            height: 32px;
+            padding: 0 8px;
+            font-size: 13px;
+            border-radius: 8px;
+            background-color: #ff7731;
+            color: #ffffff;
+            box-sizing: border-box;
+            justify-content: center;
+            white-space: nowrap;
+            margin-left:auto;
+      }
+
 .site-nav {
   flex-direction: row;
     position: relative !important;

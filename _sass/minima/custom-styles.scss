@@ -40,6 +40,9 @@
     flex-wrap: wrap;
     padding-top: 10px;
     padding-bottom: 5px;
+    justify-content: space-between;
+    gap: 12px;
+    }
   }
 }
 
@@ -50,8 +53,16 @@
         flex-direction: row;
         align-items: center;
         flex: 1 1 auto;
-        margin-left:-32px;
+        margin-left:auto;
+        flex-grow: 0;
   }
+}
+
+@media (min-width: 768px) {
+.topbar-image-box {
+      flex-basis: 0px;
+      flex-grow: 1;
+}
 }
 
 .topbar-image {
@@ -85,9 +96,11 @@
             background-color: #ff7731;
             color: #ffffff;
             box-sizing: border-box;
-            justify-content: center;
+            justify-content: flex-end;
             white-space: nowrap;
             margin-left:auto;
+            flex-basis: 0px;
+            flex-grow: 1;
       }
 
 .site-nav {

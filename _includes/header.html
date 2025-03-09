@@ -11,8 +11,10 @@
     <div class="topbar-title">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
     </div>
-    <div class="topbar-suscribe">
+    <div class="topbar-button-box">
+    <button class="topbar-suscribe">
     <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}"><span>Suscríbete</span></a>
+    </button>
     </div>
     </div>
 

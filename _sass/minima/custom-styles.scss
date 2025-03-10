@@ -542,7 +542,16 @@ h3.post-meta-list {
     margin-bottom: 10px;
     height: auto;
     object-fit: cover;
+    border-radius: 4px;
+    overflow: hidden;
   }
+  .featured-box-image-content {
+    width: 100%;
+    height: auto;
+    max-height: inherit;
+    object-fit: cover;
+    display: flex;
+    aspect-ratio: 1.5 / 1;
 }
 
   .first-featured-headline {

@@ -7,7 +7,10 @@
 
 @media (min-width: 768px) {
   .L-pad {
-    padding:0 50px;
+    padding:0 65px;
+  }
+  .featured-image-post {
+    max-width:90%;
   }
 }
 
@@ -192,10 +195,9 @@
 
 .post-meta-post {
   text-transform: uppercase;
-  font-size: 0.9rem;
   float: left;
   margin-left: 10px;
-  font-size:13px;
+  font-size:12px;
   line-height:20px;
   letter-spacing: .2px;
 }
@@ -353,7 +355,7 @@ h3.post-meta-list {
 
 .author-image {
   float: left;
-  max-width: 45px;
+  max-width: 36px;
 }
 
 .home-featured {
@@ -674,7 +676,10 @@ h3.post-meta-list {
     margin-left: 10px;
     align-self: flex-start;
     flex: 1 1 20%;
-    /* aspect-ratio: 1 / 1.5; */
+    aspect-ratio: 1 / 1.5;
+    object-fit:cover;
+    border-radius:4px;
+    overflow:hidden;
     height: auto;
     margin-bottom: 20px;
    }
@@ -706,7 +711,7 @@ h3.post-meta-list {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none !important;
-    letter-spacing: -1px;
+    letter-spacing: -.2px;
     line-height: 1.15;
 }
 

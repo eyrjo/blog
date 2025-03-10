@@ -8,7 +8,7 @@ layout: base
     {%- if page.categories -%}
     <div class="post-category">
           {% for tag in page.categories %}
-      <span><a style="color: var(--minima-border-color-02)" href="{% include category_url category=category %}">{{ tag }}</a></span>
+      <span><a style="color: var(--minima-text-color)" href="{% include category_url category=category %}">{{ tag }}</a></span>
           {% endfor %}
     </div>
   {%- endif -%}
@@ -16,10 +16,6 @@ layout: base
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     
     <h2 class="post-description" itemprop="name description">{{ page.description | escape }}</h2>
-    
-    {%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-    {%- endif -%}
     
     <div class="post-info-container">
         {% assign author = site.data.authors[page.author] %}
@@ -45,9 +41,10 @@ layout: base
        <span style="margin-left:7px;margin-right:6px">●</span>  
        <span>{% include reading-time %}</span>   
         </div>   
-    
     </div> 
-  
+   {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">

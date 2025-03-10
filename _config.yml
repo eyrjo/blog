@@ -11,7 +11,7 @@ author:
 description: >-
   1. Comparto lo bueno, lo bonito y/o lo barato
   2. Sigo las leyes de la termodinámica
-  3. Publico cada viernes
+  3. Publico los viernes
 
 # Build settings
 
@@ -34,6 +34,7 @@ plugins:
 # If you want to link only specific pages in your header, use this and add the path to the pages
 # in order as they should show up.
 header_pages:
+  - index.html
   - about.md
   - tags.html
   - categories.html

@@ -22,7 +22,7 @@ layout: base
     {% assign latest_post = site.posts[0] %}
     {%- if latest_post.image -%}
       <div class="featured-box-image">
-          <img src="{{- latest_post.image | relative_url -}}" alt="">
+          <img class="featured-box-image-content" src="{{- latest_post.image | relative_url -}}" alt="">
       </div>
       {%- endif -%}
     <div class="first-featured-headline">

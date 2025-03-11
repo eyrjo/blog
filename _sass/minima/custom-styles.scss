@@ -928,7 +928,7 @@ flex-direction: row;
     padding: 12px;
     /*background-color: var(--color-bg-secondary-themed);*/
     border: 1px solid #ff7731;
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
     font-size: 15px;
     line-height: 20px;
     width: 100%;
@@ -936,8 +936,6 @@ flex-direction: row;
     border-right-width: 0;
     display: inline-block;
     height: 40px;
-    border-radius: 4px;
-    border: 1px solid transparent;
 }
 
 .button-VFSdkv.button-VFSdkv.button-VFSdkv {
@@ -945,7 +943,7 @@ flex-direction: row;
     padding: 0 20px;
     background: #ff7731;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 0 4px 4px 0;
     color: #ffffff;
     font-size: 14px;
     flex-shrink: 0;

@@ -957,3 +957,15 @@ flex-direction: row;
     position: relative;
     overflow: visible;
 }
+
+.social-media-list li a, .pagination li a {
+    display: block;
+    padding: 5px 5px;
+    border: 1px solid var(--minima-border-color-01);
+    border-radius: 40px;
+}
+
+.social-media-list li, .pagination li {
+    float: left;
+    margin: 0px 0px 0px 0;
+}

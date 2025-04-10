@@ -969,3 +969,11 @@ flex-direction: row;
     float: left;
     margin: 0px 0px 0px 0;
 }
+
+.footer-title {
+    border-bottom: 1px solid var(--minima-border-color-01);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    padding-bottom: 10px;
+}

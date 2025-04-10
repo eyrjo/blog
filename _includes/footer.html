@@ -4,41 +4,24 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
+      <div class="footer-title">
+        {{ site.title | escape }}
+      </div>
+          <div class="footer-col">
+              <div class="contact-list">
+                   {% include subscribe-box.html %}
+              </div>
+          </div>
       <div class="footer-col">
-        <p class="feed-subscribe">
-          <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}">
-            <svg class="svg-icon orange">
-              <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-            </svg><span>Suscríbete</span>
-          </a>
-        </p>
-      
-        <div class="contact-list">
+          <div class="about-info-description">
+              {{ site.description | escape }}
+          </div>
+      </div>
           {%- if site.author %}
           {% if site.author.name -%}
               <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
           {% endif -%}
-          {% if site.author.email -%}
-              <div><a class="u-email" href="mailto:{{ site.author.email }}">Contacto</a></div>
           {%- endif %}
-          {%- endif %}
-        </div>
-      </div>
-      <div class="footer-col">
-            <img class="about-image" src="/assets/img/avatar.jpg" alt="Jorge Serrano">
-             <div class="about-info-box">
-                <div class="about-info-title">
-                  {{ site.title | escape }}
-                </div>
-            <div class="about-info-description">
-                {{ site.description | escape }}
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="social-links">
-      {%- include social.html -%}
     </div>
 
   </div>

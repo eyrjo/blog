@@ -2,28 +2,26 @@
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
 
   <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-title">
+    <div class="footer-title">
         {{ site.title | escape }}
-      </div>
+    </div>
+    <div class="footer-col-wrapper">
           <div class="footer-col">
               <div class="contact-list">
                    {% include subscribe-box.html %}
               </div>
           </div>
-      <div class="footer-col">
-          <div class="about-info-description">
+          <div class="footer-col">
+              <div class="about-info-description">
               {{ site.description | escape }}
+              </div>
           </div>
-      </div>
-          {%- if site.author %}
+    </div>
+{%- if site.author %}
           {% if site.author.name -%}
               <div>© <span class="p-name">{{ site.author.name | escape }}</span>, {{  "now" | date: '%Y' }}</div>
           {% endif -%}
           {%- endif %}
-    </div>
-
   </div>
 
 </footer>

@@ -1,4 +1,5 @@
 ---
+layout: authors
 username: yrjo
 name: Jorge Serrano
 location: Madrid 🇪🇸

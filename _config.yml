@@ -102,6 +102,11 @@ defaults:
       type: authors
     values:
       layout: author
+  - scope:
+      path: ""
+      type: post
+    values:
+      author: yrjo
 
 paginate: 5
 paginate_path: "/p/:num"

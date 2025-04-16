@@ -19,7 +19,7 @@ layout: base
     
     <div class="post-info-container">
         {% for author in site.authors %}
-	      {% if page.authors contains author.username or author.username == page.authors %}
+	      {% if page.author contains author.username or author.username == page.author %}
       <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:100%;height:auto;margin:0"></div>
       <div class="post-meta-post">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">

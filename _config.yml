@@ -86,7 +86,7 @@ collections:
   post_categories:
     permalink: /secciones/:name
     output: true
-    authors:
+  authors:
     output: true
     permalink: /a/:title/
 
@@ -101,7 +101,7 @@ defaults:
       path: ""
       type: authors
     values:
-      layout: author
+      layout: authors
   - scope:
       path: ""
       type: post

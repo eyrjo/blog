@@ -101,7 +101,7 @@ defaults:
       path: ""
       type: authors
     values:
-      layout: authors
+      layout: author
   - scope:
       path: ""
       type: post

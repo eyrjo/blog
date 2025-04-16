@@ -18,14 +18,15 @@ layout: base
     <h2 class="post-description" itemprop="name description">{{ page.description | escape }}</h2>
     
     <div class="post-info-container">
-        {% assign author = site.authors[page.author] %}
-        {%- if page.author -%}
+        {% for author in site.authors %}
+	      {% if page.authors contains author.username or author.username == page.authors %}
       <div class="author-image"><img src="{{- author.logo | relative_url -}}" alt="Avatar del autor" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:100%;height:auto;margin:0"></div>
       <div class="post-meta-post">
           <span itemprop="author" itemscope itemtype="http://schema.org/Person">
           <span class="p-author h-card" itemprop="name">{{ author.name }}</span></span>
             {%- if forloop.last == false %}, {% endif -%}
       {%- endif -%}
+      {%- endfor -%}
       <br>
       {%- assign date_format = site.minima.date_format | default: "%d/%m/%Y" -%}
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">

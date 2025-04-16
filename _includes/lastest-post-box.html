@@ -11,7 +11,7 @@
       <div class="post-meta-home-other">      
             {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
             <span>{{ post.date | date: date_format }}</span>
-            {% assign author = site.data.authors[latest_post.author] %}
+            {% assign author = site.authors[latest_post.author] %}
           {%- if latest_post.author -%}
           <span style="margin-left:7px;margin-right:0px">•</span> 
           <span class="home-author-name">  

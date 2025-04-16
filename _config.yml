@@ -86,6 +86,9 @@ collections:
   post_categories:
     permalink: /secciones/:name
     output: true
+    authors:
+    output: true
+    permalink: a/:title/
 
 defaults:
   - scope:
@@ -94,9 +97,14 @@ defaults:
     values:
       permalink: "/tags/:name/"
       layout: tag
+  - scope:
+      path: ""
+      type: authors
+    values:
+      layout: author
 
 paginate: 5
-paginate_path: "/pagina/:num"
+paginate_path: "/p/:num"
 
 pagination: 
   enabled: true

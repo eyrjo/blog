@@ -88,7 +88,7 @@ collections:
     output: true
     authors:
     output: true
-    permalink: a/:title/
+    permalink: /a/:title/
 
 defaults:
   - scope:

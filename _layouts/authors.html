@@ -14,7 +14,7 @@ layout: base
 {% endif %}
 
 {% for post in site.posts %}
-	{% if post.authors contains page.username or page.username == post.authors %}
+	{% if post.author contains page.username or page.username == post.author %}
 		<a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
 	{% endif %}
 {% endfor %}

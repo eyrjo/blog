@@ -108,7 +108,7 @@ defaults:
     values:
       author: yrjo
 
-paginate: 5
+paginate: 10
 paginate_path: "/p/:num"
 
 pagination: 

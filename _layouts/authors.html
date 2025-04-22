@@ -2,8 +2,8 @@
 layout: base
 ---
 <article class="post">
-{% if page.picture %}
-    <img class="author-profile-image" src="{{- page.logo | relative_url -}}" alt="{{ page.name }}" />
+{% if page.logo %}
+    <img src="{{- page.logo | relative_url -}}" alt="{{ page.name }}" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:10%;height:auto;margin:0;" />
 {% endif %}
 <h1 class="site-title">{{ page.name }}</h1>
 {% if page.bio %}

@@ -3,7 +3,7 @@ layout: base
 ---
 <article class="post">
 {% if page.picture %}
-    <img class="author-profile-image" src="/{{ page.logo }}" alt="{{ page.name }}" />
+    <img class="author-profile-image" src="{{- page.logo | relative_url -}}" alt="{{ page.name }}" />
 {% endif %}
 <h1 class="site-title">{{ page.name }}</h1>
 {% if page.bio %}

@@ -300,6 +300,7 @@ p.post-excerpts-home {
   font-weight: 400;
   margin-bottom: 5px;
   text-align: left;
+  align-self: flex-start;
 }
 
 @media (min-width: 768px) {
@@ -977,3 +978,79 @@ flex-direction: row;
     line-height: 24px;
     padding-bottom: 0;
 }
+
+.page-info-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: solid 1px;
+    border-color: var(--minima-border-color-01);
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    gap: 20px;
+}
+
+.page-author-image {
+    float: left;
+    max-width: 145px;
+}
+
+.page-meta-info {
+    margin-left: 0px;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: .2px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1.page-site-title {
+    color: var(--minima-site-title-color);
+    line-height: 1.625rem;
+}
+
+h2.page-author-bio {
+    margin-bottom: 0;
+}
+
+.author-location {
+      font-size: 16px;
+}
+
+@media (min-width: 768px) {
+    .page-featured-other {
+        align-items: center !important;
+        display: flex !important;
+        margin-bottom: 0.75em !important;
+        margin-right: 0px;
+        margin-left: 0px;
+        margin-top: 0px;
+        flex-direction: column;
+        flex: 1 1 75%;
+        gap: 4px;
+    }
+}
+
+.page-picture-featured-other {
+    max-width: 115px;
+    margin-left: 10px;
+    align-self: flex-start;
+    flex: 1 1 20%;
+    object-fit: cover;
+    border-radius: 4px;
+    overflow: hidden;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.page-picture-featured-other-img {
+        max-width: 100%;
+        vertical-align: middle;
+        display: block;
+        margin: 0 auto;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        border-radius: 8px;
+    }

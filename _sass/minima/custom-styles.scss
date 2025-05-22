@@ -1007,14 +1007,18 @@ flex-direction: row;
 
 .page-site-title {
     color: var(--minima-site-title-color);
-    line-height: normal;
-    font-size: 1.625rem;
+    line-height: 36px;
+    font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0;
+    letter-spacing: .2px;
 }
 
 .page-author-bio {
     margin-bottom: 0;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: .2px;
 }
 
 .author-location {

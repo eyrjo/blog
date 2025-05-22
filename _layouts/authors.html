@@ -21,8 +21,8 @@ layout: base
 
 {% for post in site.posts %}
 	{% if post.author contains page.username or page.username == post.author %}
-		<div class="featured-other-box">
-  <div class="page-featured-other">
+		<div class="page-featured-other-box">
+      <div class="page-featured-other">
       <div class="other-featured-headline">
           <h2>
               <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>

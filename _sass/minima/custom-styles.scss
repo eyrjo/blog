@@ -1019,7 +1019,14 @@ flex-direction: row;
       font-size: 16px;
 }
 
-@media (min-width: 768px) {
+.page-featured-other-box {
+    display: flex;
+    padding-top: 1.25rem;
+    border-color: var(--minima-border-color-01);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+
     .page-featured-other {
         align-items: center !important;
         display: flex !important;
@@ -1031,7 +1038,6 @@ flex-direction: row;
         flex: 1 1 75%;
         gap: 4px;
     }
-}
 
 .page-picture-featured-other {
     max-width: 75px;

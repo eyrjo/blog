@@ -1,4 +1,5 @@
 ---
+title: Jorge Serrano
 layout: authors
 username: yrjo
 name: Jorge Serrano

@@ -1006,12 +1006,12 @@ flex-direction: row;
     flex-direction: column;
 }
 
-h1.page-site-title {
+.page-site-title {
     color: var(--minima-site-title-color);
     line-height: 1.625rem;
 }
 
-h2.page-author-bio {
+.page-author-bio {
     margin-bottom: 0;
 }
 
@@ -1034,7 +1034,7 @@ h2.page-author-bio {
 }
 
 .page-picture-featured-other {
-    max-width: 115px;
+    max-width: 75px;
     margin-left: 10px;
     align-self: flex-start;
     flex: 1 1 20%;

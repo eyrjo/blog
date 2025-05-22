@@ -1005,7 +1005,7 @@ flex-direction: row;
     flex-direction: column;
 }
 
-.page-site-title {
+h1.page-site-title {
     color: var(--minima-site-title-color);
     line-height: 36px;
     font-size: 2rem;
@@ -1014,7 +1014,7 @@ flex-direction: row;
     letter-spacing: .2px;
 }
 
-.page-author-bio {
+h2.page-author-bio {
     margin-bottom: 0;
     font-size: 18px;
     line-height: 24px;

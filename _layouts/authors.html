@@ -2,16 +2,16 @@
 layout: base
 ---
 <article class="post">
-<div class="post-info-container">
+<div class="page-info-container">
   {% if page.logo %}
-      <div class="author-image">
+      <div class="page-author-image">
         <img src="{{- page.logo | relative_url -}}" alt="{{ page.name }}" style="-webkit-filter:grayscale(100%);filter:grayscale(100%) contrast(1.5);border-radius:50%;max-width:10%;height:auto;margin:0;" />
       </div>
         {% endif %}      
-        <div class="post-meta-post">
-          <h1 class="site-title">{{ page.name }}</h1>
+        <div class="page-meta-info">
+          <h1 class="page-site-title">{{ page.name }}</h1>
               {% if page.bio %}
-                <h2 class="author-bio">{{ page.bio }}</h2>
+                <h2 class="page-author-bio">{{ page.bio }}</h2>
               {% endif %}
               {% if page.location %}
                 <div class="author-location">{{ page.location }}</div>
@@ -22,7 +22,7 @@ layout: base
 {% for post in site.posts %}
 	{% if post.author contains page.username or page.username == post.author %}
 		<div class="featured-other-box">
-  <div class="featured-other">
+  <div class="page-featured-other">
       <div class="other-featured-headline">
           <h2>
               <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
@@ -37,8 +37,8 @@ layout: base
       </div>
   </div>
   {% if post.image %}
-    <div class="picture-featured-other">
-              <img class="picture-featured-other-img" src="{{- post.image | relative_url -}}" alt="">
+    <div class="page-picture-featured-other">
+              <img class="page-picture-featured-other-img" src="{{- post.image | relative_url -}}" alt="">
     </div>
   {% endif %}  
 </div>

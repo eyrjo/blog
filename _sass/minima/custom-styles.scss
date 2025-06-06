@@ -639,7 +639,7 @@ h3.post-meta-list {
     border-bottom: none !important ;
     display: flex;
     padding-top: 1.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.75rem;
 }
 
 .site-index .second-column-1 > .featured-other-box:nth-child(1) {
@@ -1091,14 +1091,18 @@ h2.page-author-bio {
     align-items: center;
     display: flex;
     position: relative;
-    gap: 6px;
-    height: 32px;
-    font-size: 13px;
+    gap: 8px;
+    height: 40px;
+    font-size: 15px;
     border-radius: 8px;
     background-color: transparent;
     color: var(--minima-text-color) !important;
     box-sizing: border-box;
     justify-content: center;
     white-space: nowrap;
-    margin-left: auto;
+    margin-left: unset;
+    padding: 0 16px;
+  a {
+    color: var(--minima-text-color) !important;
+  }
 }

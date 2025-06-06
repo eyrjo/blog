@@ -1079,7 +1079,7 @@ h2.page-author-bio {
 }
 
 @media (min-width: 768px) {
-  .post-listing .author-page {
+  .post-listing, .author-page {
     padding:0 150px;
   }
 }

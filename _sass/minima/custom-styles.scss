@@ -198,8 +198,11 @@
   float: left;
   margin-left: 10px;
   font-size:12px;
-  line-height:20px;
+  line-height:20px;  
   letter-spacing: .2px;
+      a {
+          color: var(--minima-text-color) !important;
+      }
 }
 
 .post-meta-home {

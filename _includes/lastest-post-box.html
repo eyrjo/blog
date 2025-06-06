@@ -15,7 +15,7 @@
 	      {% if latest_post.author contains author.username or author.username == latest_post.author %}
           <span style="margin-left:7px;margin-right:0px">•</span> 
           <span class="home-author-name">  
-              <span>{{ author.name }}</span> 
+              <span><a href="{{ site.url }}{{ site.baseurl }}/a/{{ author.username }}">{{ author.name }}</a></span> 
           </span>
           {%- endif -%}
         {%- endfor -%}

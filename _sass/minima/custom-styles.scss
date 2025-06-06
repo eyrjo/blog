@@ -1066,3 +1066,7 @@ h2.page-author-bio {
         object-fit: cover;
         border-radius: 8px;
     }
+
+.year:not(:first-child) {
+  margin-top: 30px;
+}

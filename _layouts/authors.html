@@ -2,6 +2,7 @@
 layout: base
 ---
 <article class="post">
+<div class="author-page">
 <div class="page-info-container">
   {% if page.logo %}
       <div class="page-author-image">
@@ -25,4 +26,5 @@ layout: base
 		{% include post-archive-loop.html %}
 	{% endif %}
 {% endfor %}
+</div>
 </article>

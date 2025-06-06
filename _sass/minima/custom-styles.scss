@@ -1083,3 +1083,22 @@ h2.page-author-bio {
     padding:0 150px;
   }
 }
+
+.home-archive-button {
+    line-height: 20px;
+    font-weight: 500;
+    border: 1px solid var(--minima-border-color-01);
+    align-items: center;
+    display: flex;
+    position: relative;
+    gap: 6px;
+    height: 32px;
+    font-size: 13px;
+    border-radius: 8px;
+    background-color: transparent;
+    color: var(--minima-text-color) !important;
+    box-sizing: border-box;
+    justify-content: center;
+    white-space: nowrap;
+    margin-left: auto;
+}

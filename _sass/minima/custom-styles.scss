@@ -205,6 +205,10 @@
       }
 }
 
+.home-author-name a {
+  color: var(--minima-text-color) !important;
+}
+
 .post-meta-home {
   .tags {
   padding-left: 5px;

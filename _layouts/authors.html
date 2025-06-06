@@ -19,29 +19,10 @@ layout: base
         </div>   
     </div> 
 
+
 {% for post in site.posts %}
 	{% if post.author contains page.username or page.username == post.author %}
-		<div class="page-featured-other-box">
-      <div class="page-featured-other">
-      <div class="other-featured-headline">
-          <h2>
-              <a class="other-featured-link" href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a>
-          </h2>
-      </div>
-      <div class="post-excerpts-home-2">
-                {{ post.description | strip_html | strip_newlines | truncate: 70 }}
-      </div>
-      <div class="post-meta-home-other">      
-            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-            <span>{{ post.date | date: date_format }}</span>
-      </div>
-  </div>
-  {% if post.image %}
-    <div class="page-picture-featured-other">
-              <img class="page-picture-featured-other-img" src="{{- post.image | relative_url -}}" alt="">
-    </div>
-  {% endif %}  
-</div>
+		{% include post-archive-loop.html %}
 	{% endif %}
 {% endfor %}
 </article>

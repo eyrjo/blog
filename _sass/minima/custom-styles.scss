@@ -1077,3 +1077,16 @@ h2.page-author-bio {
     padding-top: 1.25rem;
     margin-bottom: 1.25rem;
 }
+
+.page-featured-other-box:nth-last-child(1) {
+    border-bottom: none !important;
+    display: flex;
+    padding-top: 1.25rem;
+    margin-bottom: 1.25rem;
+}
+
+@media (min-width: 768px) {
+  .post-listing {
+    padding:0 150px;
+  }
+}

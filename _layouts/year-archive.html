@@ -4,26 +4,12 @@ layout: base
 <div class='posts'>
   <div class='post-listing'>
     {% assign years = site.posts | group_by_exp: "post", "post.date | date: '%Y'" %}
-
     {% for year in years %}
       <div class="year">
         <h3>{{ year.name }}</h3>
-
-        <ul>
           {% for post in year.items %}
-          <li>
-            <span class='published-on'>{{ post.date | date: "%d/%m" }}</span> » 
-            <a class='title' href='{{ post.url }}'>{{ post.title }}</a>
-          <span>
-            {% for tag in post.tags %}
-              <code>
-                <a href="/etiquetas#{{ tag }}/" class='tags'>#{{ tag }}</a>
-              </code>
-          </span>
-            {% endfor %}
-          </li>
+              {% include post-archive-loop.html %}
           {% endfor %}
-        </ul>
       </div>
     {% endfor %}
   </div>

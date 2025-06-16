@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Acerca de _Asuntos Propios_
+title: Acerca de
 permalink: /info/
 ---
 
 ### Si estás viendo esto, es que he decidido volver a escribir...
 
-**_Asuntos Propios_** es otro intento de recuperar la escritura como un espacio donde expresarme con libertad. Un lugar en el que reflexionar sin la presión de lo inmediato, el ruido del algoritmo o el movimiento de las modas.
+**_Asuntos Propios_** es otro intento de [Jorge Serrano](https://yrjo.eu) de recuperar la escritura como un espacio donde expresarme con libertad. Un lugar en el que reflexionar sin la presión de lo inmediato, el ruido del algoritmo o el movimiento de las modas.
 
 Este blog ha sido creado como un lugar para volcar pensamientos, ideas, descubrimientos y opiniones. La idea es que aquí quepa todo lo que antes habría publicado en una red social. Desde reflexiones profundas hasta notas sueltas, pasando por recomendaciones o listas de lecturas. 
 

@@ -9,9 +9,9 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >-
-  1. Comparto lo bueno, lo bonito y/o lo barato
-  2. Sigo las leyes de la termodinámica
-  3. Publico los viernes
+  1. Ideas, reflexiones, enlaces y desvaríos sin urgencia
+  2. Archivo personal de lo bueno, lo bonito y/o lo barato
+  3. Nuevo artículo los viernes
 
 # Build settings
 

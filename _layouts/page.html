@@ -3,15 +3,15 @@ layout: base
 ---
 <article class="post">
   
-{%- if page.image -%}
-      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
-    {%- endif -%}
-  
   <div class="page-padding">
 
   <header class="post-header">
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
+
+    {%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
 
   <div class="post-content">
     {{ content }}

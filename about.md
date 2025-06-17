@@ -2,6 +2,7 @@
 layout: page
 title: Acerca de
 permalink: /info/
+image: /assets/img/03870v.jpg
 ---
 
 ### Si estás viendo esto, es que he decidido volver a escribir...

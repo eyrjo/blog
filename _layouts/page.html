@@ -2,6 +2,11 @@
 layout: base
 ---
 <article class="post">
+  
+{%- if page.image -%}
+      <img src="{{- page.image | relative_url -}}" alt="" class="featured-image-post">
+    {%- endif -%}
+  
   <div class="page-padding">
 
   <header class="post-header">

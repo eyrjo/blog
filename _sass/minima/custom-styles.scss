@@ -814,6 +814,16 @@ line-height: 20px;
 font-size: 12px;
 }
 
+.tags {
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: baseline;
+}
+
 .post-tags-box {
     border-radius: 5px;
     border: 1px solid;

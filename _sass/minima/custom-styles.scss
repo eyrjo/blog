@@ -76,6 +76,7 @@
     height: 32px;
     margin: 0;
     border-radius: 8px;
+    display:none;
     /* filter: grayscale(100%) contrast(1.5);*/
 }
 
@@ -106,6 +107,7 @@
             justify-content: center;
             white-space: nowrap;
             margin-left:auto;
+  display:none;
       }
 
 .site-nav .page-link:nth-child(1) {
@@ -791,6 +793,7 @@ h2.post-description-ideas {
     margin: 0;
     border-radius: 8px;
     display: block;
+  display:none;
     /* filter: grayscale(100%) contrast(1.5);*/
 }
 
